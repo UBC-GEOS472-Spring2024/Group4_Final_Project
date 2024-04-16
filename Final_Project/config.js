@@ -61,7 +61,7 @@ let divChapter3 =
 let divChapter4 =
 "<h3><b>Looking Closer</b></h3>" +
   
-"<h3>"Those who take us away"</h3>"+
+"<h3>Those who take us away</h3>"+
   
 '<div><img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg" alt="Highway of Tears sign with a red dress near Witset, B.C."><div>' +
   
