@@ -57,20 +57,28 @@ let divChapter3 =
   '<div style="text-align:center;"><iframe src="data/slider_ethnicity.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Race"></iframe></div>' +
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>By moving the slider back and forth, we are able to see the distribution of data across the nation, where major cities will have the greatest prevalence for incidents. Interestingly, hotspots of incidents involving Indigenous peoples are focused predominantly West of Ontario, happening to coincide with the RCMP’s main jurisdictions. Furthermore, we can see a distinct rural urban-divide with regards to racialized groups, where locations outside of major cities, especially moving North within the Western provinces, as well as northern Territories, are almost entirely represented by police incidents with Indigenous peoples. </p>" +
-  
-  '<div style="text-align:center;"><img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg" alt="Highway of Tears sign with a red dress near Witset, B.C."><div>' +
-  
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto'><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
-  
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
-  
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>This speaks to the experience of those who have been taken away.</p>";
 
 let divChapter4 =
-  "<h3>Municipal Example 1</h3>" + "<p>Insert Sabrina's part</p>";
+"<h3><b>Looking Closer</b></h3>" +
+  
+"<h3>"Those who take us away"</h3>"+
+  
+'<div><img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg" alt="Highway of Tears sign with a red dress near Witset, B.C."><div>' +
+  
+  "<p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+  
+  "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
+  
+  "<p>This speaks to the experience of those who have been taken away.</p>";
 
 let divChapter5 =
-  "<h3>Municipal Example 2</h3>" + "<p>Insert Sabrina's part</p>";
+  "<h3><b>Looking Closer</b></h3>" +
+  
+  "<h3>Police Abuse of Indigenous Women</h3>"+
+  
+  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>";
+
+  "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>";
 
 let divChapter6 =
   "<h3>Municipal Example 3</h3>" + "<p>Insert Sabrina's part</p>";
@@ -164,7 +172,7 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "ch4-municipal1",
+      id: "ch4-Tachi",
       alignment: "left",
       hidden: false,
       title: "",
@@ -172,8 +180,8 @@ var config = {
       description: "",
       chapterDiv: divChapter4,
       location: {
-        center: [-123.1522, 49.29409],
-        zoom: 9.72,
+        center: [-124.75631, 54.66150],
+        zoom: 12.59,
         pitch: 0,
         bearing: 0,
       },
@@ -184,7 +192,7 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "ch5-municipal2",
+      id: "ch5-Sask",
       alignment: "right",
       hidden: false,
       title: "",
@@ -192,8 +200,8 @@ var config = {
       description: "",
       chapterDiv: divChapter5,
       location: {
-        center: [-114.07723, 53.57105],
-        zoom: 8.5,
+        center: [-107.02948, 54.72062],
+        zoom: 4.21,
         pitch: 0,
         bearing: 0,
       },
