@@ -24,7 +24,10 @@ let introDiv =
 
 let divChapter1 =
   "<h3>Fatal Encounters With Police in Canada</h3>" +
-  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact with this map, by zooming in and looking at different locations. </p>" + 
+  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map. </p>" + 
+  "<p>Police Killing: A death directly resulting from police use of force. Including but not limited to: shooting, tazing and other uses of force.</p>" +  
+  "<p>Police-Involved Deaths: Any civilian death at the hands of police or in the custody of police. Includes police killings deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc. This is a broader term that is more difficult to refute on the grounds of semantics.</p>" + 
+"<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>" +
   '<img width="100" src="data/GEOS_police_legend.png">';
 
 let divChapter2 = "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Changes</h3>" + 
