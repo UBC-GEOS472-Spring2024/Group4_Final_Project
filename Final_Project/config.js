@@ -32,7 +32,9 @@ let divChapter1 =
 
 let divChapter2 = "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Changes</h3>" + 
     '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>';
+
     "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. With the time slider map can be used to compare the number of incidents per year over the last 6 decades. This change in incidents can be due to many socioeconomic factors such as increase in population, increase in data visibility, and perhaps the rise of certain social movements or situations.<p>" +
+      
     "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>Our data shows a surge in incidents from 2019-2022, the years corresponding to the COVID-19 pandemic as well as the resurgence of Black Lives Matter Movement in 2020.<p>"
 
 let divChapter3 =
