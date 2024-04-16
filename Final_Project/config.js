@@ -24,7 +24,7 @@ let introDiv =
 
 let divChapter1 =
   "<h3>Fatal Encounters With Police in Canada</h3>" +
-  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map. </p>" + 
+  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map.</p>" + 
   "<p>Police Killing: A death directly resulting from police use of force. Including but not limited to: shooting, tazing and other uses of force.</p>" +  
   "<p>Police-Involved Deaths: Any civilian death at the hands of police or in the custody of police. Includes police killings deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc. This is a broader term that is more difficult to refute on the grounds of semantics.</p>" + 
 "<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>" +
@@ -61,7 +61,7 @@ let divChapter3 =
 
 let divChapter4 =
   "<h3>Looking Closer: Those who take us away</h3>" +
-  <img width="100" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg"> +
+  '<img width="100" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
   
   "<p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
