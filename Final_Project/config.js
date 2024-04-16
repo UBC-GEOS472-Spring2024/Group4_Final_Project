@@ -58,9 +58,9 @@ let divChapter3 =
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>By moving the slider back and forth, we are able to see the distribution of data across the nation, where major cities will have the greatest prevalence for incidents. Interestingly, hotspots of incidents involving Indigenous peoples are focused predominantly West of Ontario, happening to coincide with the RCMP’s main jurisdictions. Furthermore, we can see a distinct rural urban-divide with regards to racialized groups, where locations outside of major cities, especially moving North within the Western provinces, as well as northern Territories, are almost entirely represented by police incidents with Indigenous peoples. </p>" +
   
-  '<div style="text-align:center;"><img width="600" src="https://flic.kr/p/g1YsTy" alt="Highway of Tears sign with a red dress near Witset, B.C."><div>' +
+  '<div style="text-align:center;"><img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg" alt="Highway of Tears sign with a red dress near Witset, B.C."><div>' +
   
-  "<p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013)</p>" +
   
