@@ -74,9 +74,9 @@
       </Pair>
     </StyleMap>
     <Folder>
-      <name>Directions from Prince George, BC to Prince Rupert, BC</name>
+      <name>Prince George</name>
       <Placemark>
-        <name>Directions from Prince George, BC to Prince Rupert, BC</name>
+        <name>Prince George</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -11542,9 +11542,9 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Directions from Fort St. James, BC to Prince Rupert, BC</name>
+      <name>Fort St. James</name>
       <Placemark>
-        <name>Directions from Fort St. James, BC to Prince Rupert, BC</name>
+        <name>Fort St. James</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -22367,9 +22367,9 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Directions from Granisle, BC to Prince Rupert, BC</name>
+      <name>Granisle</name>
       <Placemark>
-        <name>Directions from Granisle, BC to Prince Rupert, BC</name>
+        <name>Granisle</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -31264,9 +31264,9 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Directions from Kitimat, BC to Prince Rupert, BC</name>
+      <name>Kitimat</name>
       <Placemark>
-        <name>Directions from Kitimat, BC to Prince Rupert, BC</name>
+        <name>Kitimat</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
