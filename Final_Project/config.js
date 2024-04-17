@@ -69,37 +69,72 @@ let divChapter3 =
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>By moving the slider back and forth, we are able to see the distribution of data across the nation, where major cities will have the greatest prevalence for incidents. Interestingly, hotspots of incidents involving Indigenous peoples are focused predominantly West of Ontario, happening to coincide with the RCMP’s main jurisdictions. Furthermore, we can see a distinct rural urban-divide with regards to racialized groups, where locations outside of major cities, especially moving North within the Western provinces, as well as northern Territories, are almost entirely represented by police incidents with Indigenous peoples. </p>";
 
-let divChapter4 =
+  let divChapter4 =
+  "<h3>Income Disparity and Police Use of Force</h3>" +
+  
+  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+
+  "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+  
+  "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
+
+  "<p><b>Saskatchewan (in yellow) at 13.4% of low income rate in comparison with the rest of Canada on average at 11.1%:</b></p>" +
+
+  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+
+  "<p>Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+
+  "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
+
+  "<p>Low-income neighborhoods often experience higher levels of police presence and enforcement activities. This can result in an increased likelihood of interactions between law enforcement and residents, potentially leading to more incidents of violence or abuse, especially if these interactions are characterized by racial bias or prejudice. According to The Conversation (2023), the deaths of Indigenous men involving law enforcement and custody in Saskatchewan “are often ignored or dismissed by broader society based on the presumption that these men endangered themselves due to their lifestyles”.</p>" +
+
+  "<p>The Saskatoon freezing deaths involved Indigenous Canadians in and immediately outside Saskatoon, Saskatchewan, in the 1990s and early 2000s, and are suspected of being linked to actions by the members of the Saskatoon Police Service. The police officers would arrest Indigenous people, who were usually male, for alleged drunkenness and/or disorderly behaviour, sometimes without cause (The Guardian, 2023). The officers would then drive them to the outskirts of the city at night in the winter, and abandon them, leaving them stranded in sub-zero temperatures (Report of the Commission of Inquiry into Matters Relating to the Death of Neil Stonechild, 2003).</p>" +
+
+  "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
+
+  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+
+  "<p>Figure 5. Chart of Police-Involved Deaths by Departments. From June Skeeter, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html)</p>";
+
+let divChapter5 =
   "<h3>Looking Closer: Those who take us away</h3>" +
   
   '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
 
- "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+  "<p>Figure 6. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
   "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
   "<p>This speaks to the experience of those who have been taken away.</p>";
 
-let divChapter5 =
-  "<h3>Looking Closer: Police Abuse of Indigenous Women</h3>" +
-  
-  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>" +
-
-  "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>";
-
 let divChapter6 =
-  "<h3>Looking Closer: Highway of Tears</h3>" + 
+  "<h3>Looking Closer: Missing and Murdered Indigenous Women</h3>" +
   
-  "<p>In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears.</p>" +
-
   '<img width="600" src="https://b1867527.smushcdn.com/1867527/wp-content/uploads/2021/05/Highway-of-Tears.jpg?lossy=1&strip=1&webp=1">' +
 
-  "<p>Figure 4. Highway of Tears Sign. By Lee Wilson, 2012.(https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/).</p>" +
-  
+  "<p>Figure 7. In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears. From Lee Wilson/APTN, 2021. (https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/)</p>" +
+
+  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>" +
+
+  "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>" +
+
   "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>";
 
+let divChapter7 =
+  "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
+
+  "<p>*insert video*</p>" +
+
+  "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
+
+  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>";
+
 let footerDiv =
-  "<p>Insert Conclusion.</p>" +
+  "<p>Overall, this project has aimed to contribute to the vital discourse on the topic of police violence in Canada, by highlighting temporal and socio-economic patterns in police-involved deaths. Despite the increased investment in police departments, we have observed a dynamic increase in victims over the past several decades; through interactive visualizations, we sought to explore the disproportionate representation of marginalized demographics in this trend. </p>" +
+
+  "<p>In Canada, Indigenous communities experience disproportionate risks of police-involved violence—a pattern that can be traced to systemic injustice rooted in colonial history. These communities have been described as “both over-policed and under-policed, in that they are often targeted by police but often neglected when assistance is needed” (Government of Canada, 2019). Moreover, our data draws attention to the implications of increasing rates of mental health related calls and emphasizes the inadequacy of law enforcement agents in responding to such crises. These findings suggest an urgent need for more equitable and context appropriate policing practices, that promote de-escalation without the excessive use of force.</p>" +
+
+  "<p>As discussed by June Skeeter (2021), there is also a significant amount of work still required to improve our collective understanding of police violence in Canada. Due to major regional differences between police departments (in regards to tracking their use of force and data transparency), researchers have found it challenging to draw comprehensive conclusions or make recommendations about the relationship between certain police practices, budgets and police-involved deaths (Wortley, 2021). While this issue has hindered the precision of our research, it has also highlighted the clear disconnect and gap in knowledge that needs to be addressed nation-wide to answer critical questions about how police can, or perhaps cannot, better serve all communities.</p>" +
   
   "<h3>References</h3>" +
   
@@ -108,9 +143,9 @@ let footerDiv =
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
 var config = {
-  style: "mapbox://styles/sabrinaqistina/clv30o4p400dh01rj505kcruk",
+  style: "mapbox://styles/mapbox/dark-v11",
   accessToken:
-    "pk.eyJ1Ijoic2FicmluYXFpc3RpbmEiLCJhIjoiY2t6ZDdlMmdqMm01NTJ5cHJwemRxeDAwbCJ9.EVjeL8Z69BJYubxiNhTLrg",
+    "pk.eyJ1Ijoic3VtbWVyLWgtcyIsImEiOiJjbHN3b21reGQydmNlMmxwcHh0OWw4cTgwIn0.MpcHLXkWUYWUOBqfMlCZVw",
   showMarkers: false,
   markerColor: "#3FB1CE",
   theme: "light",
@@ -141,7 +176,7 @@ var config = {
       onChapterEnter: [
         {
           layer: "pviolenceData",
-          opacity: 0.8,
+          opacity: 0.9,
           duration: 300,
         },
       ],
@@ -194,13 +229,55 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "ch4-Tachi",
+      id: "ch4-Income",
       alignment: "left",
       hidden: false,
       title: "",
       image: "",
       description: "",
       chapterDiv: divChapter4,
+      location: {
+        center: [-105.41748, 57.71788],
+        zoom: 3,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "enableFreetime",
+      onChapterEnter: [
+        {
+          layer: "pviolenceData",
+          opacity: 0.9,
+          duration: 300,
+        },
+        {
+            layer: "income",
+            opacity: 0.7,
+            duration: 300,
+          },
+      ],
+      onChapterExit: [
+        {
+          layer: "pviolenceData",
+          opacity: 0,
+          duration: 300,
+        },
+        {
+            layer: "income",
+            opacity: 0,
+            duration: 300,
+          },
+      ],
+    },
+    {
+      id: "ch5-Tachi",
+      alignment: "right",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter5,
       location: {
         center: [-125.02283, 54.65375],
         zoom: 8.21,
@@ -209,39 +286,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "pviolenceData",
-          opacity: 0.8,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "pviolenceData",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-    },
-    {
-      id: "ch5-Sask",
-      alignment: "right",
-      hidden: false,
-      title: "",
-      image: "",
-      description: "",
-      chapterDiv: divChapter5,
-      location: {
-        center: [-101.18722, 55.62027],
-        zoom: 3.97,
-        pitch: 0,
-        bearing: 0,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
         {
           layer: "pviolenceData",
@@ -289,5 +334,37 @@ var config = {
         },
       ],
     },
+    {
+        id: "ch7-resistance",
+        alignment: "left",
+        hidden: false,
+        title: "",
+        image: "",
+        description: "",
+        chapterDiv: divChapter7,
+        location: {
+          center: [-128.36834, 54.09203],
+          zoom: 5.92,
+          pitch: 0,
+          bearing: 0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+        callback: "",
+        onChapterEnter: [
+          {
+            layer: "pviolenceData",
+            opacity: 0.8,
+            duration: 300,
+          },
+        ],
+        onChapterExit: [
+          {
+            layer: "pviolenceData",
+            opacity: 0,
+            duration: 300,
+          },
+        ],
+      },
   ],
 };
