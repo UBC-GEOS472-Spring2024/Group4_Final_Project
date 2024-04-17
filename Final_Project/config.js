@@ -144,7 +144,7 @@ let footerDiv =
 
   "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html</a></p>" +
 
-  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. <a href= 'https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm'>/a>https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm</a></p>" +
+  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. <a href= 'https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm'>https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm</a></p>" +
 
   "<p>Government of Canada, S. C. (2022, October 26). The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity. <a href='https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm'>https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm</a></p>" +
 
