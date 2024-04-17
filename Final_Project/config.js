@@ -69,8 +69,8 @@ let divChapter4 =
   "<h3>Looking Closer: Those who take us away</h3>" +
   
   '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
-  
-  "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+
+ "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
   "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
