@@ -46,8 +46,8 @@ let divChapter3 =
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>What is, however, a notable finding within the data, is the over representation of Indigenous identifying individuals, which made up roughly 31% of our incident data (not including unspecified values). While this alone isn’t too remarkable, when looking at population statistics we find Indigenous peoples only making up about 6.1% of Canada’s total population (Government of Canada, 2022), which shows a highly skewed preference to targeting Indigenous peoples by police. Furthermore, as explored by June Skeeter in their work, having calculated police-involved deaths rates by ethnic census data, those of Indigenous identity see the highest rates of death by police action than any other ethnic or racialized population within Canada (Skeeter, 2021), where those of Indigenous identity are 7X more likely to be killed by police than most other racial groups in Canada.</p>" +
     
   '<div style="text-align:center;"><img width="600" src="https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/CA_Race_Normalized.png" alt="Police Involved Deaths by race, per million people per year"><div>' +
-    
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'><i>Figure 2. </i>Death by race, per million people per year. From <i>June Skeeter</i>, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p>" +
+
+  '<div style="text-align:center;"><p><i>Figure 2. </i>Death by race, per million people per year. From <i>June Skeeter</i>, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p><div>'+
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Additional analysis done by the Government of Canada (2019) highlights the greater disparities that Indigenous peoples and First Nations communities face, where Indigenous peoples: represent 30% of Canada’s custody admissions, are more likely to be homicide victims, and more likely to have re-contact with the criminal justice system compared to non Indigenous peoples.</p>" +
     
@@ -61,9 +61,9 @@ let divChapter3 =
 
 let divChapter4 =
   "<h3>Looking Closer: Those who take us away</h3>" +
-  '<img width="100" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  '<img width="500" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
   
-  "<p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+  '<div><p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p><div>'+
   
   "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
@@ -77,8 +77,15 @@ let divChapter5 =
   "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>";
 
 let divChapter6 =
-  "<h3>Looking Closer: Police Abuse of Indigenous Women</h3>" + 
-  "<p>Insert Sabrina's part</p>";
+  "<h3>Looking Closer: Highway of Tears</h3>" + 
+  
+  "<p>In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears.</p>" +
+
+  '<img width="500" src="https://b1867527.smushcdn.com/1867527/wp-content/uploads/2021/05/Highway-of-Tears.jpg?lossy=1&strip=1&webp=1">' +
+
+    '<div><p><i>Figure 4.</i> Highway of Tears Sign. By Lee Wilson, 2012.(https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/).</p><div>'+
+  
+  "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>";
 
 let footerDiv =
   "<p>Insert Conclusion.</p>" +
@@ -123,6 +130,12 @@ var config = {
           opacity: 0.8,
           duration: 300,
         },
+        
+         {
+          layer: "Choropleth",
+          opacity: 0,
+          duration: 0,
+        }
       ],
       onChapterExit: [],
     },
@@ -144,6 +157,11 @@ var config = {
       rotateAnimation: false,
       callback: "disableFreetime",
       onChapterEnter: [
+       {
+          layer: "Choropleth",
+          opacity: 0,
+          duration: 0,
+        }
       ],
       onChapterExit: [
       ],
@@ -165,7 +183,13 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+       {
+          layer: "Choropleth",
+          opacity: 0,
+          duration: 0,
+        }
+      ],
       onChapterExit: [],
     },
     {
@@ -184,8 +208,19 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [],
+      callback: "enableFreetime",
+      onChapterEnter: [
+       {
+          layer: "Choropleth",
+          opacity: 0.8,
+          duration: 300,
+        },
+        {
+          layer: "pviolenceData",
+          opacity: 0.8,
+          duration: 300,
+        }
+      ],
       onChapterExit: [],
     },
     {
@@ -205,11 +240,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [       {
+          layer: "Choropleth",
+          opacity: 0.8,
+          duration: 300,
+        },
+        {
+          layer: "pviolenceData",
+          opacity: 0.8,
+          duration: 300,
+        }],
       onChapterExit: [],
     },
     {
-      id: "ch6-municipal3",
+      id: "ch6-highway",
       alignment: "left",
       hidden: false,
       title: "",
@@ -219,14 +263,36 @@ var config = {
       location: {
         center: [-79.57582, 43.71578],
         zoom: 8.32,
-        pitch: 1.95,
+        pitch: 0,
         bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      callback: "disableFreetime",
+      onChapterEnter: [
+               {
+          layer: "Choropleth",
+          opacity: 0.8,
+          duration: 300,
+        },
+        {
+          layer: "pviolenceData",
+          opacity: 0.8,
+          duration: 300,
+        }
+      ],
+      onChapterExit: [
+                       {
+          layer: "Choropleth",
+          opacity: 0,
+          duration: 300,
+        },
+        {
+          layer: "pviolenceData",
+          opacity: 0,
+          duration: 300,
+        }
+      ],
     },
   ],
 };
