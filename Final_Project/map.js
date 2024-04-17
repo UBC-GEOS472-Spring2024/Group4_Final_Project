@@ -267,7 +267,32 @@ map.on("load", function () {
       },
     },
     "road-label-simple",
-   );
+   ); 
+
+   // Create popups
+    map.on('click', 'pviolenceData', function (e) {
+        let names = e.features[0].properties.name;
+        let gender = e.features[0].properties.gender;
+        let race = e.features[0].properties.race;
+        let cause_death = e.features[0].properties.cause_death;
+        let circumstances_of_death = e.features[0].properties.circumstances_of_death;
+        new mapboxgl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML( '<p><b>Name: </b>' + names + '</p>'
+                    + '<p><b>Gender: </b>' + gender + '</p>'
+                    + '<p><b>Race: </b>' + race +'</p>'
+                    + '<p><b>Cause of Death: </b>' + cause_death + '</p>'
+                    + '<p><b>Circumstance of Death: </b>' + circumstances_of_death + '</p>')
+            .addTo(map);
+    });
+    // Change the cursor to a pointer when the mouse is over the turnstileData layer.
+    map.on('mouseenter', 'pviolenceData', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'pviolenceData', function () {
+        map.getCanvas().style.cursor = '';
+    });
 
   // Setup the instance, pass callback functions
   scroller
