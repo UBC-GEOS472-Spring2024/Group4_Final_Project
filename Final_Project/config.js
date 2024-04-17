@@ -211,8 +211,8 @@ var config = {
       description: "",
       chapterDiv: divChapter4,
       location: {
-        center: [-124.75631, 54.66150],
-        zoom: 12.59,
+        center: [-125.02283, 54.65375],
+        zoom: 8.21,
         pitch: 0,
         bearing: 0,
       },
