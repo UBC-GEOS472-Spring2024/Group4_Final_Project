@@ -140,14 +140,14 @@ var config = {
           opacity: 0.8,
           duration: 300,
         },
-        
-         {
-          layer: "Choropleth choropleth",
-          opacity: 0,
-          duration: 0,
-        }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "pviolenceData",
+          opacity: 0,
+          duration: 300,
+        },
+      ],
     },
     {
       id: "ch2-temporal",
@@ -166,15 +166,8 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [
-       {
-          layer: "Choropleth choropleth",
-          opacity: 0,
-          duration: 0,
-        }
-      ],
-      onChapterExit: [
-      ],
+      onChapterEnter: [],
+      onChapterExit: [],
     },
     {
       id: "ch3-race",
@@ -192,14 +185,8 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-       {
-          layer: "Choropleth choropleth",
-          opacity: 0,
-          duration: 0,
-        }
-      ],
+      callback: "disableFreetime",
+      onChapterEnter: [],
       onChapterExit: [],
     },
     {
@@ -220,18 +207,19 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-       {
-          layer: "Choropleth choropleth",
-          opacity: 0.8,
-          duration: 300,
-        },
         {
           layer: "pviolenceData",
           opacity: 0.8,
           duration: 300,
-        }
+        },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "pviolenceData",
+          opacity: 0,
+          duration: 300,
+        },
+      ],
     },
     {
       id: "ch5-Sask",
@@ -250,17 +238,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [       {
-          layer: "Choropleth choropleth",
-          opacity: 0.8,
-          duration: 300,
-        },
+      onChapterEnter: [
         {
           layer: "pviolenceData",
           opacity: 0.8,
           duration: 300,
-        }],
-      onChapterExit: [],
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "pviolenceData",
+          opacity: 0,
+          duration: 300,
+        },
+      ],
     },
     {
       id: "ch6-highway",
@@ -271,37 +262,27 @@ var config = {
       description: "",
       chapterDiv: divChapter6,
       location: {
-        center: [-79.57582, 43.71578],
-        zoom: 8.32,
+        center: [-128.36834, 54.09203],
+        zoom: 5.92,
         pitch: 0,
         bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: "",
       onChapterEnter: [
-               {
-          layer: "Choropleth choropleth",
-          opacity: 0.8,
-          duration: 300,
-        },
         {
           layer: "pviolenceData",
           opacity: 0.8,
           duration: 300,
-        }
+        },
       ],
       onChapterExit: [
-                       {
-          layer: "Choropleth choropleth",
-          opacity: 0,
-          duration: 300,
-        },
         {
           layer: "pviolenceData",
           opacity: 0,
           duration: 300,
-        }
+        },
       ],
     },
   ],
