@@ -27,6 +27,7 @@ body {
   #features {
     padding-top: 80vh;
     padding-bottom: 10vh;
+    overflow-wrap: break-word;
   }
   @media (max-width: 750px) {
     #features {
