@@ -138,8 +138,38 @@ let footerDiv =
   
   "<h3>References</h3>" +
   
-  "<p>Insert references</p>" +
-  
+  "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. https://www.amnesty.org/en/documents/act30/3443/2020/en/ </p>" +
+
+  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </p>" +
+
+  "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html </p>" +
+
+  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm </p>" +
+
+  "<p>Government of Canada, S. C. (2022, October 26). The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity. https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm </p>" +
+
+  "<p>Human Rights Watch. (2013, February 13). Those Who Take Us Away. Abusive policing and failures in protection of indigenous women and girls in northern British Columbia, Canada. Human Rights Watch. https://www.hrw.org/report/2013/02/13/those-who-take-us-away/abusive-policing-and-failures-protection-indigenous-women </p>" +
+
+  "<p>Kim, P. (2019, March 28). 17 years of police violence in Canada. Pivot Legal Society. https://www.pivotlegal.org/17_years_of_police_violence_in_canada </p>" +
+
+  "<p>Kwak, A. J. (2020, July 5). The Depth of Our Denial: The History of Discriminatory Policing in Canada. MIR. https://www.mironline.ca/the-depth-of-our-denial-the-history-of-discriminatory-policing-in-canada/ </p>" +
+
+  "<p>M, H. (2012). Tachie Reserve in BC [Photo]. https://www.flickr.com/photos/sultan/9856368246/ </p>" +
+
+  "<p>Nielsen, K., Zhang, Y., & Ingram, J. (2022). The Impact of COVID-19 on police officer activities. Journal of Criminal Justice, 82, 101943. 10.1016/j.jcrimjus.2022.101943 </p>" +
+
+  "<p>Seabrook, M. S. S., Luscombe, A., Balian, N., Lofters, A., Matheson, F. I., O’Neill, B. G., Owusu-Bempah, A., Persaud, N., & Pinto, A. D. (2023). Police Funding and Crime Rates in 20 of Canada’s Largest Municipalities: A Longitudinal Study. Canadian Public Policy, 49(4), 383–398. https://doi.org/10.3138/cpp.2022-050 </p>" +
+
+  "<p>Skeeter, J. (2021, June). Introduction. Systemic Racism & Canadian Police. https://june-skeeter.github.io/Police_Involved_Deaths_Canada/ </p>" +
+
+  "<p>Tracking (In)Justice. (2023, February 10). Police-involved Deaths are on the Rise, as are Racial Disparities in Canada. Tracking (In)Justice. https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/ </p>" +
+
+  "<p>Wortley, S., Owusu-Bempah, A., Laming, E., & Henry, C. (2021). POLICE USE OF FORCE IN CANADA: A REVIEW OF DATA, EXPERT OPINION, AND THE INTERNATIONAL RESEARCH LITERATURE. Canadian Criminal Justice Association (CCJA). https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf </p>" +
+
+  "<h4>Data Sources Used:</h4>" + 
+
+  "<p>https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv *we used this and geocoded it, but removed all values that had no ‘city-town’ value* </p>" +
+
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
 var config = {
