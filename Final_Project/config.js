@@ -18,14 +18,14 @@ let introDiv =
     
   "<p>Given Canada’s history of colonialism and codified racial discrimination (Kwak, 2020), it may also come as no surprise that racial disparities are pronounced in this trend. Black and Indigenous peoples are over-represented, with these populations comprising around 8.7% of Canada's total population, yet accounting for 27.2% of all police-involved shooting deaths where race is reported (Tracking (In)Justice).  Furthermore, a significant amount of incidents involve people in mental health crisis or distress, with Statistics Canada reporting an increase in non-criminal police calls during the COVID-19 pandemic, involving general wellbeing checks, domestic disturbances, and mental health-related crises (Government of Canada, 2020). A key criticism of policing is that resources would be better allocated to mental health specialists, while police forces themselves have cited increased substance use disorder distress calls and mental health problems as reasons the use of force may have increased (Wortley et al., p. 43).</p>" +
     
-  "<p>The emerging body of research on the use of force in Canadian policing (from both academic, municipal and community voices), underscores the urgency of understanding and addressing patterns of police violence. This is particularly important in light of increasing scrutiny and public demand for accountability in law enforcement institutions. Our project aims to build on data compiled by UBC researcher June Skeeter (2021), to explore spatial and temporal patterns of fatal encounters across Canada, with a focus on elucidating disparities in policing practices.</p>" +
+  "<p>The emerging body of research on the use of force in Canadian policing (from both academic, municipal and community voices), underscores the urgency of understanding and addressing patterns of police violence. This is particularly important in light of increasing scrutiny and public demand for accountability in law enforcement institutions. This project aims to build on data compiled by UBC researcher June Skeeter (2021), to explore spatial and temporal patterns of fatal encounters across Canada, with a focus on elucidating disparities in policing practices.</p>" +
     
   '<p style="text-align:center">Scroll to continue<br>▼</p>';
 
 let divChapter1 =
   "<h3>Fatal Encounters With Police in Canada</h3>" +
   
-  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by moving the map, zooming and clicking on points for victim details.</p>" + 
+  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by moving the map, zooming and clicking on points for details.</p>" + 
 
   '<img width="200" src="data/GEOS_police_legend.png">' +
 
