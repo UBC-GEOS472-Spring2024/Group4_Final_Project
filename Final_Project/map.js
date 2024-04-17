@@ -276,13 +276,16 @@ map.on("load", function () {
         let race = e.features[0].properties.race;
         let cause_death = e.features[0].properties.cause_death;
         let circumstances_of_death = e.features[0].properties.circumstances_of_death;
+        let date = e.features[0].properties.date;
+
         new mapboxgl.Popup()
             .setLngLat(e.lngLat)
             .setHTML( '<p><b>Name: </b>' + names + '</p>'
                     + '<p><b>Gender: </b>' + gender + '</p>'
                     + '<p><b>Race: </b>' + race +'</p>'
                     + '<p><b>Cause of Death: </b>' + cause_death + '</p>'
-                    + '<p><b>Circumstance of Death: </b>' + circumstances_of_death + '</p>')
+                    + '<p><b>Circumstance of Death: </b>' + circumstances_of_death + '</p>'
+                    + '<p><b>Date of Record: </b>' + date + '</p>')
             .addTo(map);
     });
     // Change the cursor to a pointer when the mouse is over the turnstileData layer.
