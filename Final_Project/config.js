@@ -25,7 +25,7 @@ let introDiv =
 let divChapter1 =
   "<h3>Fatal Encounters With Police in Canada</h3>" +
   
-  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map.</p>" + 
+  "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by moving the map, zooming and clicking on points for victim details.</p>" + 
 
   '<img width="200" src="data/GEOS_police_legend.png">' +
 
