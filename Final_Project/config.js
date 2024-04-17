@@ -12,7 +12,7 @@ let introDiv =
     
   '<div style="text-align:center;"><img width="750" src="https://trackinginjustice.ca/wp-content/uploads/Post-1-2-1.jpg" alt="Police Involved Deaths When Force is Used per 100,000 people"><div>' +
     
-  "<p><i>Figure 1.</i>Police Involved Deaths When Force is Used, per 100,000 People in Canada. From <i>Tracking (in)Justice</i>, 2023.(https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/).</p>" +
+  "<p>Figure 1.Police Involved Deaths When Force is Used, per 100,000 People in Canada. From Tracking (in)Justice, 2023.(https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/).</p>" +
     
   "<p>At the same time, Canadian municipalities have continuously invested in policing services, with up to 26% of total expenditures going to police budgets and per capita funding rising in the last decades (Seabrook et al., 2023). Even though general crime rates have decreased across Canada and de-escalation training has become a standard practice (Wortley et al.), this persistent rise in fatal encounters prompts questions about the efficacy and ethics of current police conduct.</p>" +
     
@@ -24,11 +24,16 @@ let introDiv =
 
 let divChapter1 =
   "<h3>Fatal Encounters With Police in Canada</h3>" +
+  
   "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map.</p>" + 
+
+  '<img width="200" src="data/GEOS_police_legend.png">' +
+
   "<p>Police Killing: A death directly resulting from police use of force. Including but not limited to: shooting, tazing and other uses of force.</p>" +  
-  "<p>Police-Involved Deaths: Any civilian death at the hands of police or in the custody of police. Includes police killings deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc. This is a broader term that is more difficult to refute on the grounds of semantics.</p>" + 
-  "<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>" +
-  '<img width="100" src="data/GEOS_police_legend.png">';
+  
+  "<p>Police-Involved Deaths: Any civilian death at the hands of police or in the custody of police. Includes police killings deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc. This is a broader term that is more difficult to refute on the grounds of semantics.</p>" +
+  
+  "<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>";
 
 let divChapter2 = 
   "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Changes</h3>" + 
@@ -47,8 +52,8 @@ let divChapter3 =
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>What is, however, a notable finding within the data, is the over representation of Indigenous identifying individuals, which made up roughly 31% of our incident data (not including unspecified values). While this alone isn’t too remarkable, when looking at population statistics we find Indigenous peoples only making up about 6.1% of Canada’s total population (Government of Canada, 2022), which shows a highly skewed preference to targeting Indigenous peoples by police. Furthermore, as explored by June Skeeter in their work, having calculated police-involved deaths rates by ethnic census data, those of Indigenous identity see the highest rates of death by police action than any other ethnic or racialized population within Canada (Skeeter, 2021), where those of Indigenous identity are 7X more likely to be killed by police than most other racial groups in Canada.</p>" +
     
   '<div style="text-align:center;"><img width="600" src="https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/CA_Race_Normalized.png" alt="Police Involved Deaths by race, per million people per year"><div>' +
-
-  '<div style="text-align:center;"><p><i>Figure 2. </i>Death by race, per million people per year. From <i>June Skeeter</i>, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p><div>'+
+  
+"<p style='max-width:600px; margin-left:auto; margin-right:auto'>Figure 2. Death by race, per million people per year. From June Skeeter, 2021. (https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p>" +
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Additional analysis done by the Government of Canada (2019) highlights the greater disparities that Indigenous peoples and First Nations communities face, where Indigenous peoples: represent 30% of Canada’s custody admissions, are more likely to be homicide victims, and more likely to have re-contact with the criminal justice system compared to non Indigenous peoples.</p>" +
     
@@ -56,7 +61,7 @@ let divChapter3 =
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'><b>Comparison of The Distribution of Police Violence Across Canada and on Indigenous Peoples:</b></p>" +
     
-  '<div style="text-align:center;"><iframe src="data/slider_ethnicity.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Race"></iframe></div>' +
+  '<div style="text-align:center; margin-left:auto; margin-right:auto;"><iframe src="data/slider_ethnicity.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Race"></iframe></div>' +
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>By moving the slider back and forth, we are able to see the distribution of data across the nation, where major cities will have the greatest prevalence for incidents. Interestingly, hotspots of incidents involving Indigenous peoples are focused predominantly West of Ontario, happening to coincide with the RCMP’s main jurisdictions. Furthermore, we can see a distinct rural urban-divide with regards to racialized groups, where locations outside of major cities, especially moving North within the Western provinces, as well as northern Territories, are almost entirely represented by police incidents with Indigenous peoples. </p>";
 
@@ -65,7 +70,7 @@ let divChapter4 =
   
   '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
   
-  "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
+  "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
   "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
