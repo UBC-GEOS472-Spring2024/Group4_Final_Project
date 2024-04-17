@@ -27,16 +27,17 @@ let divChapter1 =
   "<p>This map shows all recorded police-involved deaths across Canada, from 1971 to 2023. You can interact by zooming in and moving the map.</p>" + 
   "<p>Police Killing: A death directly resulting from police use of force. Including but not limited to: shooting, tazing and other uses of force.</p>" +  
   "<p>Police-Involved Deaths: Any civilian death at the hands of police or in the custody of police. Includes police killings deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc. This is a broader term that is more difficult to refute on the grounds of semantics.</p>" + 
-"<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>" +
+  "<p>Off Duty/ Retired: Any civilian deaths resulting from off-duty or retired former police.</p>" +
   '<img width="100" src="data/GEOS_police_legend.png">';
 
-let divChapter2 = "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Changes</h3>" + 
+let divChapter2 = 
+  "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Changes</h3>" + 
     
   '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
 
-    "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. With the time slider map can be used to compare the number of incidents per year over the last 6 decades. This change in incidents can be due to many socioeconomic factors such as increase in population, increase in data visibility, and perhaps the rise of certain social movements or situations.<p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. With the time slider map can be used to compare the number of incidents per year over the last 6 decades. This change in incidents can be due to many socioeconomic factors such as increase in population, increase in data visibility, and perhaps the rise of certain social movements or situations.<p>" +
       
-    "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>Our data shows a surge in incidents from 2019-2022, the years corresponding to the COVID-19 pandemic as well as the resurgence of Black Lives Matter Movement in 2020.<p>";
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>Our data shows a surge in incidents from 2019-2022, the years corresponding to the COVID-19 pandemic as well as the resurgence of Black Lives Matter Movement in 2020.<p>";
 
 let divChapter3 =
   "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Racial Disparities</h3>" +
@@ -61,13 +62,14 @@ let divChapter3 =
 
 let divChapter4 =
   "<h3>Looking Closer: Those who take us away</h3>" +
-  '<img width="500" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
   
-  '<div><p><i>Figure 3.</i> Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p><div>'+
+  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  
+  "<p>Figure 3. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
   "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
-"<p>This speaks to the experience of those who have been taken away.</p>";
+  "<p>This speaks to the experience of those who have been taken away.</p>";
 
 let divChapter5 =
   "<h3>Looking Closer: Police Abuse of Indigenous Women</h3>" +
@@ -81,16 +83,19 @@ let divChapter6 =
   
   "<p>In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears.</p>" +
 
-  '<img width="500" src="https://b1867527.smushcdn.com/1867527/wp-content/uploads/2021/05/Highway-of-Tears.jpg?lossy=1&strip=1&webp=1">' +
+  '<img width="600" src="https://b1867527.smushcdn.com/1867527/wp-content/uploads/2021/05/Highway-of-Tears.jpg?lossy=1&strip=1&webp=1">' +
 
-    '<div><p><i>Figure 4.</i> Highway of Tears Sign. By Lee Wilson, 2012.(https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/).</p><div>'+
+  "<p>Figure 4. Highway of Tears Sign. By Lee Wilson, 2012.(https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/).</p>" +
   
   "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>";
 
 let footerDiv =
   "<p>Insert Conclusion.</p>" +
+  
   "<h3>References</h3>" +
+  
   "<p>Insert references</p>" +
+  
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
 var config = {
@@ -132,7 +137,7 @@ var config = {
         },
         
          {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0,
           duration: 0,
         }
@@ -158,7 +163,7 @@ var config = {
       callback: "disableFreetime",
       onChapterEnter: [
        {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0,
           duration: 0,
         }
@@ -185,7 +190,7 @@ var config = {
       callback: "",
       onChapterEnter: [
        {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0,
           duration: 0,
         }
@@ -211,7 +216,7 @@ var config = {
       callback: "enableFreetime",
       onChapterEnter: [
        {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0.8,
           duration: 300,
         },
@@ -241,7 +246,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [       {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0.8,
           duration: 300,
         },
@@ -271,7 +276,7 @@ var config = {
       callback: "disableFreetime",
       onChapterEnter: [
                {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0.8,
           duration: 300,
         },
@@ -283,7 +288,7 @@ var config = {
       ],
       onChapterExit: [
                        {
-          layer: "Choropleth",
+          layer: "Choropleth choropleth",
           opacity: 0,
           duration: 300,
         },
