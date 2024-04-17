@@ -37,10 +37,12 @@ let divChapter1 =
 
 let divChapter2 = 
   "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Patterns</h3>" + 
-    
-  '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
 
   "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. In comparing 2011-2022 with previous ten-year periods, there has been a 66.5% increase in deaths from police violence across Canada (CCLA, 2023). We can visualize this change by using the slider on our map to compare the number of police-involved incidents per year, over the last six decades. Many socio-economic factors can be responsible for this change, including increase in population, increase in data visibility, and perhaps the rise of certain social movements or circumstances.</p>" +
+
+  "<p><b>Temporal patterns of police-involved incidents across Canada from between 1971-2023:</b></p>" +
+
+  '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
       
   "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>There is a clear difference between the 1980s and 90s and 2010s. A large explanation for this is availability of data. Over the recent years, with the incorporation of body cams, more data is available on police activity. Even though there is still a lack of transparency and gaps in data, there are organizations and research teams, such as Tracking(In)Justice and June Skeeter, working to build a comprehensive dataset showcasing all police activity patterns. Furthermore, between 2019-2022, we experienced COVID-19 and the global resurgence of Black Lives Matter movement; consequently, these years correspond to a surge in police-involved incidents across Canada, and we investigated this relation.</p>" +
 
@@ -167,7 +169,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [],
       onChapterExit: [],
     },
@@ -187,7 +189,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: "",
       onChapterEnter: [],
       onChapterExit: [],
     },
