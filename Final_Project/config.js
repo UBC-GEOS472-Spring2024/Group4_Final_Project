@@ -40,7 +40,7 @@ let divChapter2 =
 
   "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. In comparing 2011-2022 with previous ten-year periods, there has been a 66.5% increase in deaths from police violence across Canada (CCLA, 2023). We can visualize this change by using the slider on our map to compare the number of police-involved incidents per year, over the last six decades. Many socio-economic factors can be responsible for this change, including increase in population, increase in data visibility, and perhaps the rise of certain social movements or circumstances.</p>" +
 
-  "<p><b>Temporal patterns of police-involved incidents across Canada from between 1971-2023:</b></p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'><b>Temporal patterns of police-involved incidents across Canada from between 1971-2023:</b></p>" +
 
   '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
       
@@ -57,7 +57,7 @@ let divChapter3 =
     
   '<div style="text-align:center;"><img width="600" src="https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/CA_Race_Normalized.png" alt="Police Involved Deaths by race, per million people per year"><div>' +
   
-"<p style='max-width:600px; margin-left:auto; margin-right:auto'>Figure 2. Death by race, per million people per year. From June Skeeter, 2021. (https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Figure 2. Death by race, per million people per year. From June Skeeter, 2021. (https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html).</p>" +
     
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Additional analysis done by the Government of Canada (2019) highlights the greater disparities that Indigenous peoples and First Nations communities face, where Indigenous peoples: represent 30% of Canada’s custody admissions, are more likely to be homicide victims, and more likely to have re-contact with the criminal justice system compared to non Indigenous peoples.</p>" +
     
