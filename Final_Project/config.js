@@ -138,7 +138,7 @@ let footerDiv =
   
   "<h3>References</h3>" +
   
-  "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/ </a></p>" +
+  "<p><i>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/ '>https://www.amnesty.org/en/documents/act30/3443/2020/en/ </a></i></p>" +
 
   "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </p>" +
 
