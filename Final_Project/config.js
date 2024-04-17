@@ -165,7 +165,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: "",
       onChapterEnter: [
        {
           layer: "Choropleth choropleth",
@@ -218,7 +218,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "enableFreetime",
+      callback: "",
       onChapterEnter: [
        {
           layer: "Choropleth choropleth",
