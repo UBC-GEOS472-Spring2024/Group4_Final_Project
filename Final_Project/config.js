@@ -74,7 +74,7 @@ let divChapter4 =
 let divChapter5 =
   "<h3>Looking Closer: Police Abuse of Indigenous Women</h3>" +
   
-  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>";
+  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>" +
 
   "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>";
 
