@@ -138,37 +138,37 @@ let footerDiv =
   
   "<h3>References</h3>" +
   
-  "<p><i>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/ '>https://www.amnesty.org/en/documents/act30/3443/2020/en/ </a></i></p>" +
+  "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/ '>link</a></p>" +
 
-  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </p>" +
+  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>link</a></p>" +
 
-  "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html </p>" +
+  "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>link</a></p>" +
 
-  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm </p>" +
+  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. <a href= 'https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm'>link</a></p>" +
 
-  "<p>Government of Canada, S. C. (2022, October 26). The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity. https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm </p>" +
+  "<p>Government of Canada, S. C. (2022, October 26). The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity. <a href='https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm'>link</a></p>" +
 
-  "<p>Human Rights Watch. (2013, February 13). Those Who Take Us Away. Abusive policing and failures in protection of indigenous women and girls in northern British Columbia, Canada. Human Rights Watch. https://www.hrw.org/report/2013/02/13/those-who-take-us-away/abusive-policing-and-failures-protection-indigenous-women </p>" +
+  "<p>Human Rights Watch. (2013, February 13). Those Who Take Us Away. Abusive policing and failures in protection of indigenous women and girls in northern British Columbia, Canada. Human Rights Watch. <a href='https://www.hrw.org/report/2013/02/13/those-who-take-us-away/abusive-policing-and-failures-protection-indigenous-women'>link</a></p>" +
 
-  "<p>Kim, P. (2019, March 28). 17 years of police violence in Canada. Pivot Legal Society. https://www.pivotlegal.org/17_years_of_police_violence_in_canada </p>" +
+  "<p>Kim, P. (2019, March 28). 17 years of police violence in Canada. Pivot Legal Society. <a href='https://www.pivotlegal.org/17_years_of_police_violence_in_canada'>link</a></p>" +
 
-  "<p>Kwak, A. J. (2020, July 5). The Depth of Our Denial: The History of Discriminatory Policing in Canada. MIR. https://www.mironline.ca/the-depth-of-our-denial-the-history-of-discriminatory-policing-in-canada/ </p>" +
+  "<p>Kwak, A. J. (2020, July 5). The Depth of Our Denial: The History of Discriminatory Policing in Canada. MIR. <a href='https://www.mironline.ca/the-depth-of-our-denial-the-history-of-discriminatory-policing-in-canada/'>link</a></p>" +
 
-  "<p>M, H. (2012). Tachie Reserve in BC [Photo]. https://www.flickr.com/photos/sultan/9856368246/ </p>" +
+  "<p>M, H. (2012). Tachie Reserve in BC [Photo]. <a href='https://www.flickr.com/photos/sultan/9856368246/'>link</a></p>" +
 
-  "<p>Nielsen, K., Zhang, Y., & Ingram, J. (2022). The Impact of COVID-19 on police officer activities. Journal of Criminal Justice, 82, 101943. 10.1016/j.jcrimjus.2022.101943 </p>" +
+  "<p>Nielsen, K., Zhang, Y., & Ingram, J. (2022). The Impact of COVID-19 on police officer activities. Journal of Criminal Justice, 82, 101943. <a href='https://www.sciencedirect.com/science/article/pii/S0047235222000630?via%3Dihub'>10.1016/j.jcrimjus.2022.101943</a></p>" +
 
-  "<p>Seabrook, M. S. S., Luscombe, A., Balian, N., Lofters, A., Matheson, F. I., O’Neill, B. G., Owusu-Bempah, A., Persaud, N., & Pinto, A. D. (2023). Police Funding and Crime Rates in 20 of Canada’s Largest Municipalities: A Longitudinal Study. Canadian Public Policy, 49(4), 383–398. https://doi.org/10.3138/cpp.2022-050 </p>" +
+  "<p>Seabrook, M. S. S., Luscombe, A., Balian, N., Lofters, A., Matheson, F. I., O’Neill, B. G., Owusu-Bempah, A., Persaud, N., & Pinto, A. D. (2023). Police Funding and Crime Rates in 20 of Canada’s Largest Municipalities: A Longitudinal Study. Canadian Public Policy, 49(4), 383–398. <a href='https://utpjournals.press/doi/10.3138/cpp.2022-050'>10.3138/cpp.2022-050</a></p>" +
 
-  "<p>Skeeter, J. (2021, June). Introduction. Systemic Racism & Canadian Police. https://june-skeeter.github.io/Police_Involved_Deaths_Canada/ </p>" +
+  "<p>Skeeter, J. (2021, June). Introduction. Systemic Racism & Canadian Police. <a href='https://june-skeeter.github.io/Police_Involved_Deaths_Canada/>link</a></p>" +
 
-  "<p>Tracking (In)Justice. (2023, February 10). Police-involved Deaths are on the Rise, as are Racial Disparities in Canada. Tracking (In)Justice. https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/ </p>" +
+  "<p>Tracking (In)Justice. (2023, February 10). Police-involved Deaths are on the Rise, as are Racial Disparities in Canada. Tracking (In)Justice. <a href='https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/'>link</a></p>" +
 
-  "<p>Wortley, S., Owusu-Bempah, A., Laming, E., & Henry, C. (2021). POLICE USE OF FORCE IN CANADA: A REVIEW OF DATA, EXPERT OPINION, AND THE INTERNATIONAL RESEARCH LITERATURE. Canadian Criminal Justice Association (CCJA). https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf </p>" +
+  "<p>Wortley, S., Owusu-Bempah, A., Laming, E., & Henry, C. (2021). POLICE USE OF FORCE IN CANADA: A REVIEW OF DATA, EXPERT OPINION, AND THE INTERNATIONAL RESEARCH LITERATURE. Canadian Criminal Justice Association (CCJA). <a href='https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf'>link</a></p>" +
 
   "<h4>Data Sources Used:</h4>" + 
 
-  "<p>https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv *we used this and geocoded it, but removed all values that had no ‘city-town’ value* </p>" +
+  "<p><a href='https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv'>*we used this and geocoded it, but removed all values that had no ‘city-town’ value*</a></p>" +
 
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
