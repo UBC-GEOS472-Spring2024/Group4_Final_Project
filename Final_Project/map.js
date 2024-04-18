@@ -276,7 +276,7 @@ map.on("load", function () {
         type: "fill",
         source: {
             type: "geojson",
-            data: "census_low_income.geojson",
+            data: "census.geojson",
         },
         "paint": {
             "fill-color": 
