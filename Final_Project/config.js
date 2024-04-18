@@ -285,7 +285,7 @@ var config = {
         },
         {
             layer: "income",
-            opacity: 0.7,
+            opacity: 0.6,
             duration: 300,
           },
       ],
@@ -311,8 +311,8 @@ var config = {
       description: "",
       chapterDiv: divChapter5,
       location: {
-        center: [-125.02283, 54.65375],
-        zoom: 8.21,
+        center: [-124.29819, 54.60851],
+        zoom: 7.60,
         pitch: 0,
         bearing: 0,
       },
@@ -343,7 +343,7 @@ var config = {
       description: "",
       chapterDiv: divChapter6,
       location: {
-        center: [-128.36834, 54.09203],
+        center: [-128.71742, 53.97629],
         zoom: 5.92,
         pitch: 0,
         bearing: 0,
@@ -375,7 +375,7 @@ var config = {
         description: "",
         chapterDiv: divChapter7,
         location: {
-          center: [-68.495337, 63.745511],
+          center: [-68.91758, 63.77745],
           zoom: 8.0,
           pitch: 0,
           bearing: 0,
