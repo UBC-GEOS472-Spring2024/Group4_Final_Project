@@ -353,7 +353,7 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "pviolenceData",
+          layer: "/highwayoftears.html",
           opacity: 0.8,
           duration: 300,
         },
