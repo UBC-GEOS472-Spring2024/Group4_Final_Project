@@ -190,7 +190,7 @@ let footerDiv =
 
   "<h4>Data Sources Used:</h4>" + 
 
-  "<p><a href='https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv'>*we used this and geocoded it, but removed all values that had no ‘city-town’ value*</a></p>" +
+  "<p><a href='https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv'>*We used this and geocoded it, but removed all values that had no ‘city-town’ value.*</a></p>" +
 
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
