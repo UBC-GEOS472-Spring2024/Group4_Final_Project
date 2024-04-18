@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highway of Tears</title>
+  <!-- External CSS for Mapbox -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+  <style>
+    /* Styling for the map container */
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+  </style>
+</head>
+<body>
+  <!-- Map container -->
+  <div id="map"></div>
+
+  <!-- External JavaScript libraries -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.15.0/togeojson.min.js"></script>
+
+  <!-- JavaScript for initializing the map -->
+  <script>
+    // Set your Mapbox access token
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2FicmluYXFpc3RpbmEiLCJhIjoiY2t6ZDdlMmdqMm01NTJ5cHJwemRxeDAwbCJ9.EVjeL8Z69BJYubxiNhTLrg';
+    
+    // Initialize the map
+    const map = new mapboxgl.Map({
+      container: 'map', // Container ID
+      style: 'mapbox://styles/sabrinaqistina/clv4fwdfx00fu01ogg3g5brfr', // Map style URL
+      center: [-105.41748, 57.71788], // Initial center coordinates
+      zoom: 3.5 // Zoom level to Saskatchewan
+    });
+
+    // Once the map is loaded
+    map.on('load', function () {
+      // Fetch KML data
+      fetch('https://raw.githubusercontent.com/UBC-GEOS472-Spring2024/Group4_Final_Project/main/Final_Project/data/highway_roads.kml')
+        .then(response => response.text())
+        .then(kml => {
+          // Parse KML to GeoJSON
+          const geojson = toGeoJSON.kml(new DOMParser().parseFromString(kml, 'text/xml'));
+          
+          // Add GeoJSON source to the map
+          map.addSource('kmlData', {
+            type: 'geojson',
+            data: geojson
+          });
+
+          // Add a line layer to render the KML data
+          map.addLayer({
+            'id': 'kmlLayer',
+            'type': 'line',
+            'source': 'kmlData',
+            'paint': {
+              'line-color': '#ffffff',
+              'line-width': 2
+            }
+          });
+
+          // Add a symbol layer for labels
+          map.addLayer({
+            'id': 'kmlLabels',
+            'type': 'symbol',
+            'source': 'kmlData',
+            'layout': {
+              'text-field': ['get', 'name'], // Use the name property for labels
+              'text-font': ['Open Sans Regular'],
+              'text-size': 10
+            },
+            'paint': {
+              'text-color': '#ffffff' // Label text color
+            }
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching or parsing KML:', error);
+        });
+    });
+  </script>
+</body>
+</html>

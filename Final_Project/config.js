@@ -72,18 +72,16 @@ let divChapter3 =
   let divChapter4 =
   "<h3>Income Disparity and Police Use of Force</h3>" +
   
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  '<img width="600" src="data/income_legend.png">' +
 
   "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
   
   "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
 
-  "<p><b>Saskatchewan (in yellow) at 13.4% of low income rate in comparison with the rest of Canada on average at 11.1%:</b></p>" +
+  '<img width="600" src="data/income_chart.png">' +
 
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
-
-  "<p>Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
-
+  "<p>Figure 4. Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+  
   "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
 
   "<p>Low-income neighborhoods often experience higher levels of police presence and enforcement activities. This can result in an increased likelihood of interactions between law enforcement and residents, potentially leading to more incidents of violence or abuse, especially if these interactions are characterized by racial bias or prejudice. According to The Conversation (2023), the deaths of Indigenous men involving law enforcement and custody in Saskatchewan “are often ignored or dismissed by broader society based on the presumption that these men endangered themselves due to their lifestyles”.</p>" +
@@ -92,9 +90,9 @@ let divChapter3 =
 
   "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  "<p>June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  "<p>Figure 5. Chart of Police-Involved Deaths by Departments. From June Skeeter, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html)</p>";
+  "<p>Link to chart of police-involved deaths by departments: https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html.</p>";
 
 let divChapter5 =
   "<h3>Looking Closer: Those who take us away</h3>" +
@@ -103,7 +101,7 @@ let divChapter5 =
 
   "<p>Figure 6. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
-  "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
+  "<p>Tachie Reserve, seen in Figure 6, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
   "<p>This speaks to the experience of those who have been taken away.</p>";
 
@@ -118,16 +116,20 @@ let divChapter6 =
 
   "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>" +
 
-  "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>";
+  "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>" +
 
+  "<p>Amnesty International’s 2004 report on Canada’s Missing and Murdered Indigenous Women highlighted a troubling reality: despite assurances of protection, Indigenous women have often been deprived of the adequate security promised by law enforcement. This report shed light on a pervasive issue that demands urgent attention and meaningful action to address the longstanding injustices faced by Indigenous communities across the country.</p>";
+ 
 let divChapter7 =
-  "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
-
-  "<p>*insert video*</p>" +
-
+  "<h3>Looking Closer: The Power of Resistance.</h3>" +
+  
+  '<video width="325" controls autoplay> <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
+  
   "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
 
-  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>";
+  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>" +
+
+  "<p>This gathering underscored the urgent need to address longstanding grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>";
 
 let footerDiv =
   "<p>Overall, this project has aimed to contribute to the vital discourse on the topic of police violence in Canada, by highlighting temporal and socio-economic patterns in police-involved deaths. Despite the increased investment in police departments, we have observed a dynamic increase in victims over the past several decades; through interactive visualizations, we sought to explore the disproportionate representation of marginalized demographics in this trend. </p>" +
@@ -138,8 +140,38 @@ let footerDiv =
   
   "<h3>References</h3>" +
   
-  "<p>Insert references</p>" +
-  
+  "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/</a></p>" +
+
+  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </a></p>" +
+
+  "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html</a></p>" +
+
+  "<p>Government of Canada, S. C. (2020, September 1). Police-reported crime incidents down during the early months of the pandemic, while domestic disturbance calls increase. <a href= 'https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm'>https://www150.statcan.gc.ca/n1/daily-quotidien/200901/dq200901a-eng.htm</a></p>" +
+
+  "<p>Government of Canada, S. C. (2022, October 26). The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity. <a href='https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm'>https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm</a></p>" +
+
+  "<p>Human Rights Watch. (2013, February 13). Those Who Take Us Away. Abusive policing and failures in protection of indigenous women and girls in northern British Columbia, Canada. Human Rights Watch. <a href='https://www.hrw.org/report/2013/02/13/those-who-take-us-away/abusive-policing-and-failures-protection-indigenous-women'>https://www.hrw.org/report/2013/02/13/those-who-take-us-away/abusive-policing-and-failures-protection-indigenous-women</a></p>" +
+
+  "<p>Kim, P. (2019, March 28). 17 years of police violence in Canada. Pivot Legal Society. <a href='https://www.pivotlegal.org/17_years_of_police_violence_in_canada'>https://www.pivotlegal.org/17_years_of_police_violence_in_canada</a></p>" +
+
+  "<p>Kwak, A. J. (2020, July 5). The Depth of Our Denial: The History of Discriminatory Policing in Canada. MIR. <a href='https://www.mironline.ca/the-depth-of-our-denial-the-history-of-discriminatory-policing-in-canada/'>https://www.mironline.ca/the-depth-of-our-denial-the-history-of-discriminatory-policing-in-canada/</a></p>" +
+
+  "<p>M, H. (2012). Tachie Reserve in BC [Photo]. <a href='https://www.flickr.com/photos/sultan/9856368246/'>https://www.flickr.com/photos/sultan/9856368246/</a></p>" +
+
+  "<p>Nielsen, K., Zhang, Y., & Ingram, J. (2022). The Impact of COVID-19 on police officer activities. Journal of Criminal Justice, 82, 101943. <a href='https://www.sciencedirect.com/science/article/pii/S0047235222000630?via%3Dihub'>10.1016/j.jcrimjus.2022.101943</a></p>" +
+
+  "<p>Seabrook, M. S. S., Luscombe, A., Balian, N., Lofters, A., Matheson, F. I., O’Neill, B. G., Owusu-Bempah, A., Persaud, N., & Pinto, A. D. (2023). Police Funding and Crime Rates in 20 of Canada’s Largest Municipalities: A Longitudinal Study. Canadian Public Policy, 49(4), 383–398. <a href='https://utpjournals.press/doi/10.3138/cpp.2022-050'>10.3138/cpp.2022-050</a></p>" +
+
+  "<p>Skeeter, J. (2021, June). Introduction. Systemic Racism & Canadian Police. <a href='https://june-skeeter.github.io/Police_Involved_Deaths_Canada/>https://june-skeeter.github.io/Police_Involved_Deaths_Canada/</a></p>" +
+
+  "<p>Tracking (In)Justice. (2023, February 10). Police-involved Deaths are on the Rise, as are Racial Disparities in Canada. Tracking (In)Justice. <a href='https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/'>https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/</a></p>" +
+
+  "<p>Wortley, S., Owusu-Bempah, A., Laming, E., & Henry, C. (2021). POLICE USE OF FORCE IN CANADA: A REVIEW OF DATA, EXPERT OPINION, AND THE INTERNATIONAL RESEARCH LITERATURE. Canadian Criminal Justice Association (CCJA). <a href='https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf'>https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf</a></p>" +
+
+  "<h4>Data Sources Used:</h4>" + 
+
+  "<p><a href='https://github.com/June-Skeeter/Police_Involved_Deaths_Canada/blob/main/Inputs/DataSets/Compiled/Combined_Data.csv'>*we used this and geocoded it, but removed all values that had no ‘city-town’ value*</a></p>" +
+
   '<h4><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></h4>';
 
 var config = {
@@ -343,8 +375,8 @@ var config = {
         description: "",
         chapterDiv: divChapter7,
         location: {
-          center: [-128.36834, 54.09203],
-          zoom: 5.92,
+          center: [-68.495337, 63.745511],
+          zoom: 8.0,
           pitch: 0,
           bearing: 0,
         },
