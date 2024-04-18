@@ -92,9 +92,7 @@ let divChapter3 =
     
   "<p>The Saskatoon freezing deaths involved Indigenous Canadians in and immediately outside Saskatoon, Saskatchewan, in the 1990s and early 2000s, and are suspected of being linked to actions by the members of the Saskatoon Police Service. The police officers would arrest Indigenous people, who were usually male, for alleged drunkenness and/or disorderly behaviour, sometimes without cause (The Guardian, 2023). The officers would then drive them to the outskirts of the city at night in the winter, and abandon them, leaving them stranded in sub-zero temperatures (Report of the Commission of Inquiry into Matters Relating to the Death of Neil Stonechild, 2003).</p>" +
 
-  "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
-
-  "<p>June Skeeter’s 2021 research reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
+  "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
 
 let divChapter5 =
   "<h3>Looking Closer: Those Who Take Us Away</h3>" +
@@ -217,7 +215,7 @@ var config = {
       hidden: false,
       chapterDiv: divChapter1,
       location: {
-        center: [-105.41748, 57.71788],
+        center: [-107.52556, 58.82120],
         zoom: 3,
         pitch: 0,
         bearing: 0,
@@ -228,11 +226,6 @@ var config = {
       image: "",
 
       onChapterEnter: [
-        {
-          layer: "pviolenceData",
-          opacity: 0.9,
-          duration: 300,
-        },
         {
             layer: "income",
             opacity: 0,
@@ -247,6 +240,11 @@ var config = {
             layer: "highwaynames",
             opacity: 0,
             duration: 300,
+        },
+        {
+          layer: "pviolenceData",
+          opacity: 0.9,
+          duration: 300,
         },
       ],
       onChapterExit: [
@@ -266,7 +264,7 @@ var config = {
       description: "",
       chapterDiv: divChapter2,
       location: {
-        center: [-105.41748, 57.71788],
+        center: [-107.52556, 58.82120],
         zoom: 3,
         pitch: 0,
         bearing: 0,
@@ -286,7 +284,7 @@ var config = {
       description: "",
       chapterDiv: divChapter3,
       location: {
-        center: [-105.41748, 57.71788],
+        center: [-107.52556, 58.82120],
         zoom: 3,
         pitch: 0,
         bearing: 0,
@@ -306,7 +304,7 @@ var config = {
       description: "",
       chapterDiv: divChapter4,
       location: {
-        center: [-105.41748, 57.71788],
+        center: [-107.52556, 58.82120],
         zoom: 3,
         pitch: 0,
         bearing: 0,
