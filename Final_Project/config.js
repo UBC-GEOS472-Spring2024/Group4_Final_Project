@@ -119,6 +119,9 @@ let divChapter6 =
   "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>" +
 
   "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>";
+ 
+  '<div style="text-align:center; margin-left:auto; margin-right:auto;"><iframe src="data/highwayoftears.html" style="border:none; height:500px; width:800px;title="---"></iframe></div>' +
+
 
 let divChapter7 =
   "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
