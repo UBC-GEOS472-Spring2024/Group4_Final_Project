@@ -144,6 +144,8 @@ let footerDiv =
   
   "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/</a></p>" +
 
+  "<p>Amnesty International Canada. (2021). Missing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
+  
   "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </a></p>" +
 
   "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html</a></p>" +
