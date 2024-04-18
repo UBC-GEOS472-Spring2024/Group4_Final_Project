@@ -291,9 +291,9 @@ map.on("load", function () {
                 15.2,
                 "#c2b500"
             ],
-            "fill-opacity": 1,
+            "fill-opacity": 0,
         },
-   },"pviolenceData"
+   },"pviolenceData", "place-labels",
  );
 
     // Create popups
