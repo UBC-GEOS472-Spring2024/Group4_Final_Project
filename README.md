@@ -20,4 +20,7 @@ https://ubc-geos472-spring2024.github.io/Group4_Final_Project/Final_Project/data
 
 ![Screenshot 2024-03-04 082056](Final_Project/data/tachiereserve_screenshot.png)
 
+https://ubc-geos472-spring2024.github.io/Group4_Final_Project/Final_Project/data/highwayoftears.html
+![Screenshot 2024-03-04 082056](Final_Project/data/highwayoftears_screenshot.png)
+
 ![Screenshot 2024-03-04 082056](Final_Project/data/nunavut_screenshot.png)
