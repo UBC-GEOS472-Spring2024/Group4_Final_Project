@@ -38,13 +38,13 @@ let divChapter1 =
 let divChapter2 = 
   "<h3 style='max-width:600px; margin-left:auto; margin-right:auto'>Temporal Patterns</h3>" + 
 
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>From our data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. In comparing 2011-2022 with previous ten-year periods, there has been a 66.5% increase in deaths from police violence across Canada (CCLA, 2023). We can visualize this change by using the slider on our map to compare the number of police-involved incidents per year, over the last six decades. Many socio-economic factors can be responsible for this change, including increase in population, increase in data visibility, and perhaps the rise of certain social movements or circumstances.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>By looking into this data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. In comparing 2011-2022 with previous ten-year periods, there has been a 66.5% increase in deaths from police violence across Canada (CCLA, 2023). We can visualize this change by using the slider on the following map to compare the number of police-involved incidents per year, over the last six decades. Many socio-economic factors may be responsible for this change, including an increase in population, increase in data visibility, and perhaps the rise of certain social movements or circumstances.</p>" +
 
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'><b>Temporal patterns of police-involved incidents across Canada from between 1971-2023:</b></p>" +
 
   '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
       
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>There is a clear difference between the 1980s and 90s and 2010s. A large explanation for this is availability of data. Over the recent years, with the incorporation of body cams, more data is available on police activity. Even though there is still a lack of transparency and gaps in data, there are organizations and research teams, such as Tracking(In)Justice and June Skeeter, working to build a comprehensive dataset showcasing all police activity patterns. Furthermore, between 2019-2022, we experienced COVID-19 and the global resurgence of Black Lives Matter movement; consequently, these years correspond to a surge in police-involved incidents across Canada, and we investigated this relation.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>There is a clear difference between the 1980s and 90s and 2010s. A large explanation for this is availability of data. Over the recent years, with the incorporation of body cams, more data is available on police activity. Even though there is still a lack of transparency and gaps in data, there are organizations and research teams, such as Tracking(In)Justice and June Skeeter, working to build a comprehensive dataset tracking all police-involved deaths. Furthermore, between 2019-2022, we experienced COVID-19 and the global resurgence of Black Lives Matter movement; consequently, these years correspond to a surge in police-involved incidents across Canada, and we investigated this relation.</p>" +
 
   "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>The pandemic and its mandates required police departments to change their operating policies (Nielson et al., 2022), and adapt to new challenges for an unprecedented crisis. In addition, there was an increase in mental health stressors which escalated tensions between the general public and authority figures. A report by Amnesty International, published in 2020, highlighted how police used excessive and unnecessary force to enforce lockdowns and curfews, and suppress protests. The pandemic was also used to introduce laws and policies by law forces, which were not thoroughly reviewed or questioned as we were in a sensitive and crucial time. As previously mentioned, the COVID-19 pandemic disrupted routines and changed social behaviours, which immensely impacts our mental health. Studies showed that mental health-related calls-for-service were increased during the pandemic, and police officers were the first responders to such calls without being properly trained to provide the right type of care in such cases, which increased use of force (Wortley, 2021).</p>";
 
@@ -74,7 +74,7 @@ let divChapter3 =
   
   '<img width="600" src="data/income_legend.png">' +
 
-  "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+  "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by Census Metropolitan Area. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
   
   "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
 
@@ -90,7 +90,7 @@ let divChapter3 =
 
   "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  "<p>June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
+  "<p>June Skeeter’s 2021 research reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
   "<p>Link to chart of police-involved deaths by departments: https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html.</p>";
 
@@ -112,7 +112,7 @@ let divChapter6 =
 
   "<p>Figure 7. In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears. From Lee Wilson/APTN, 2021. (https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/)</p>" +
 
-  "<p>In Saskatchewan, Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>" +
+  "<p>Human Rights Watch found evidence of a fractured relationship between law enforcement and Indigenous communities.</p>" +
 
   "<p>The failure of law enforcement authorities to deal effectively with the problem of missing and murdered indigenous women and girls in Canada is just one element of the dysfunctional relationship between the Canadian police and Indigenous communities (Human Rights Watch, 2013).</p>" +
 
