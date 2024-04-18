@@ -123,7 +123,7 @@ let divChapter6 =
 let divChapter7 =
   "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
   
-  '<video width="300" controls autoplay>  <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
+  '<video width="325" controls autoplay>  <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
   
   "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
 
@@ -373,7 +373,7 @@ var config = {
         description: "",
         chapterDiv: divChapter7,
         location: {
-          center: [-128.36834, 54.09203],
+          center: [-68.495337, 63.745511],
           zoom: 5.92,
           pitch: 0,
           bearing: 0,
