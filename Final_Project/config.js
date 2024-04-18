@@ -118,7 +118,7 @@ let divChapter6 =
 
   "<p>The Highway of Tears is a 719-kilometre (447 mi) corridor of Highway 16 between Prince George and Prince Rupert in British Columbia, Canada, which has been the location of crimes against many Missing and Murdered Indigenous Women (MMIW) beginning in 1970.</p>" +
 
-  "<p>Amnesty International’s 2004 report on Canada’s Missing and Murdered Indigenous Women highlighted a troubling reality: despite assurances of protection, Indigenous women have often been deprived of the adequate security promised by law enforcement. This report shed light on a pervasive issue that demands urgent attention and meaningful action to address the longstanding injustices faced by Indigenous communities across the country.</p>;
+  "<p>Amnesty International’s 2004 report on Canada’s Missing and Murdered Indigenous Women highlighted a troubling reality: despite assurances of protection, Indigenous women have often been deprived of the adequate security promised by law enforcement. This report shed light on a pervasive issue that demands urgent attention and meaningful action to address the longstanding injustices faced by Indigenous communities across the country.</p>";
  
 let divChapter7 =
   "<h3>Looking Closer: The Power of Resistance.</h3>" +
@@ -129,7 +129,7 @@ let divChapter7 =
 
   "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>" +
 
-  "<p>This gathering underscored the urgent need to address longstanding grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>;
+  "<p>This gathering underscored the urgent need to address longstanding grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>";
 
 let footerDiv =
   "<p>Overall, this project has aimed to contribute to the vital discourse on the topic of police violence in Canada, by highlighting temporal and socio-economic patterns in police-involved deaths. Despite the increased investment in police departments, we have observed a dynamic increase in victims over the past several decades; through interactive visualizations, we sought to explore the disproportionate representation of marginalized demographics in this trend. </p>" +
