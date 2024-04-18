@@ -90,11 +90,9 @@ let divChapter3 =
 
   "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  "<p>June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
-    
-  '<img width="600" src="https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html">' +
+  "<p>June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  "<p>Figure 5. Chart of Police-Involved Deaths by Departments. From June Skeeter, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html)</p>";
+  "<p>Link to chart of police-involved deaths by departments: https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html.</p>";
 
 let divChapter5 =
   "<h3>Looking Closer: Those who take us away</h3>" +
@@ -103,7 +101,7 @@ let divChapter5 =
 
   "<p>Figure 6. Tachie Reserve, a Dakelh village in Northern British Columbia. By Samer Muscati, 2012.(https://www.flickr.com/photos/sultan/9856368246/in/photostream/).</p>" +
   
-  "<p>Tachie Reserve, seen in Figure 3, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
+  "<p>Tachie Reserve, seen in Figure 6, is a Dakelh village in Northern British Columbia. In Dakelh, the Indigenous language of the community, the word for ‘police’ translates to ‘those who take us away.’ An RCMP report examining the historical role of police in Canada’s residential school system revealed that they were seen less as sources of assistance and more as figures of authority who removed community members from the reserve or made arrests for perceived wrongdoing (Human Rights Watch, 2013).</p>" +
   
   "<p>This speaks to the experience of those who have been taken away.</p>";
 
