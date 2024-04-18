@@ -72,13 +72,13 @@ let divChapter3 =
   let divChapter4 =
   "<h3>Income Disparity and Police Use of Force</h3>" +
   
-  '<img width="600" src="Final_Project/data/income_legend.png">' +
+  '<img width="600" src="data/income_legend.png">' +
 
   "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
   
   "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
 
-  '<img width="600" src="Final_Project/data/income_chart.png">' +
+  '<img width="600" src="data/income_chart.png">' +
 
   "<p>Figure 4. Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
   
