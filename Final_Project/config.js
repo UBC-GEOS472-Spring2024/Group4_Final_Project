@@ -314,6 +314,16 @@ var config = {
       callback: "enableFreetime",
       onChapterEnter: [
         {
+            layer: "highway",
+            opacity: 0,
+            duration: 300,
+        },
+        {
+            layer: "highwaynames",
+            opacity: 0,
+            duration: 300,
+        },
+        {
           layer: "pviolenceData",
           opacity: 0.9,
           duration: 300,
@@ -325,6 +335,16 @@ var config = {
           },
       ],
       onChapterExit: [
+        {
+            layer: "highway",
+            opacity: 0,
+            duration: 300,
+        },
+        {
+            layer: "highwaynames",
+            opacity: 0,
+            duration: 300,
+        },
         {
           layer: "pviolenceData",
           opacity: 0,
