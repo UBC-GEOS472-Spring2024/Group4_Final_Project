@@ -374,7 +374,7 @@ var config = {
         chapterDiv: divChapter7,
         location: {
           center: [-68.495337, 63.745511],
-          zoom: 5.92,
+          zoom: 8.0,
           pitch: 0,
           bearing: 0,
         },
