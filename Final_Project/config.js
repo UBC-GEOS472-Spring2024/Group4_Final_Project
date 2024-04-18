@@ -97,7 +97,7 @@ let divChapter3 =
   "<p>June Skeeter’s 2021 research reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
 
 let divChapter5 =
-  "<h3>Looking Closer: Those who take us away</h3>" +
+  "<h3>Looking Closer: Those Who Take Us Away</h3>" +
   
   '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
 
