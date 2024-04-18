@@ -125,7 +125,16 @@ let divChapter6 =
 let divChapter7 =
   "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
 
-  '<video width="500" src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" >' +
+'<video width="500px" 
+               height="400px" 
+               controls="controls">
+        <source 
+                src=
+"https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" 
+                type="video/mp4" />
+       </video>' +
+  
+  //'<video width="500" src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" >' +
 
   "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
 
@@ -353,7 +362,7 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "data/highwayoftears.html",
+          layer: "data./highwayoftears.html",
           opacity: 0.8,
           duration: 300,
         },
