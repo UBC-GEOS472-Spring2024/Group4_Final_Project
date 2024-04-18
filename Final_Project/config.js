@@ -358,8 +358,8 @@ var config = {
       description: "",
       chapterDiv: divChapter6,
       location: {
-        center: [-129.34440, 54.19937],
-        zoom: 5.81,
+        center: [-131.10276, 54.50235],
+        zoom: 5.5,
         pitch: 0,
         bearing: 0,
       },
