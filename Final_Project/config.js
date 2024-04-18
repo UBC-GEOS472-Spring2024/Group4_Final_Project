@@ -221,6 +221,11 @@ var config = {
             opacity: 0,
             duration: 300,
         },
+        {
+            layer: "highwaynames",
+            opacity: 0,
+            duration: 300,
+        },
       ],
       onChapterExit: [
         {
@@ -372,6 +377,11 @@ var config = {
             opacity: 1,
             duration: 300,
         },
+        {
+            layer: "highwaynames",
+            opacity: 1,
+            duration: 300,
+        },
       ],
       onChapterExit: [
         {
@@ -381,6 +391,11 @@ var config = {
         },
         {
             layer: "highway",
+            opacity: 0,
+            duration: 300,
+        },
+        {
+            layer: "highwaynames",
             opacity: 0,
             duration: 300,
         },
