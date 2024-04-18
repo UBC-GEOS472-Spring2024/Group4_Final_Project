@@ -121,9 +121,9 @@ let divChapter6 =
   "<p>Amnesty International’s 2004 report on Canada’s Missing and Murdered Indigenous Women highlighted a troubling reality: despite assurances of protection, Indigenous women have often been deprived of the adequate security promised by law enforcement. This report shed light on a pervasive issue that demands urgent attention and meaningful action to address the longstanding injustices faced by Indigenous communities across the country.</p>;
  
 let divChapter7 =
-  "<h3>Looking Closer: The Power of Resistance</h3>" + 
+  "<h3>Looking Closer: The Power of Resistance.</h3>" +
   
-  '<video width="325" controls autoplay>  <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
+  '<video width="325" controls autoplay> <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
   
   "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
 
