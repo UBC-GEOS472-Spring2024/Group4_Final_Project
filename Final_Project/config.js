@@ -72,17 +72,11 @@ let divChapter3 =
   let divChapter4 =
   "<h3>Income Disparity and Police Use of Force</h3>" +
   
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  '<img width="600" src="Final_Project/data/income_legend.png">' +
 
   "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
   
   "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
-
-  "<p><b>Saskatchewan (in yellow) at 13.4% of low income rate in comparison with the rest of Canada on average at 11.1%:</b></p>" +
-
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
-
-  "<p>Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
 
   "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
 
@@ -92,7 +86,9 @@ let divChapter3 =
 
   "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  '<img width="600" src="https://live.staticflickr.com/2805/9856368246_9ca90c630d_z.jpg">' +
+  "<p>June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
+    
+  '<img width="600" src="https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html">' +
 
   "<p>Figure 5. Chart of Police-Involved Deaths by Departments. From June Skeeter, 2021.(https://juneskeeter.github.io/Police_Involved_Deaths_Canada/Content/Looking_At_the_Data.html)</p>";
 
