@@ -121,13 +121,15 @@ let divChapter6 =
 
 
 let divChapter7 =
-  "<h3>Looking Closer: Resistance to Police Brutality Amongst Indigenous Communities in 2020</h3>" + 
+  "<h3>Looking Closer: The Power of Resistance</h3>" + 
   
   '<video width="325" controls autoplay>  <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
   
   "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
 
-  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>";
+  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>" +
+
+  "<p>This gathering underscored the urgent need to address longstanding grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>;
 
 let footerDiv =
   "<p>Overall, this project has aimed to contribute to the vital discourse on the topic of police violence in Canada, by highlighting temporal and socio-economic patterns in police-involved deaths. Despite the increased investment in police departments, we have observed a dynamic increase in victims over the past several decades; through interactive visualizations, we sought to explore the disproportionate representation of marginalized demographics in this trend. </p>" +
