@@ -86,13 +86,15 @@ let divChapter3 =
 
   "<p>Low-income neighborhoods often experience higher levels of police presence and enforcement activities. This can result in an increased likelihood of interactions between law enforcement and residents, potentially leading to more incidents of violence or abuse, especially if these interactions are characterized by racial bias or prejudice. According to The Conversation (2023), the deaths of Indigenous men involving law enforcement and custody in Saskatchewan “are often ignored or dismissed by broader society based on the presumption that these men endangered themselves due to their lifestyles”.</p>" +
 
+  '<img width="600" src="https://web.archive.org/web/20160423044243im_/http://www.cbc.ca/news2/background/stonechild/gfx/stonechild_protest.jpg">' +
+
+  "<p> Figure 5. In 2000 people marched through the streets of Saskatoon protesting what they were calling racist behaviour in the Saskatoon Police force. From Wayback Machine, 2005. (https://web.archive.org/web/20180811171332/http://www.cbc.ca/news2/background/stonechild/)</p>" +
+    
   "<p>The Saskatoon freezing deaths involved Indigenous Canadians in and immediately outside Saskatoon, Saskatchewan, in the 1990s and early 2000s, and are suspected of being linked to actions by the members of the Saskatoon Police Service. The police officers would arrest Indigenous people, who were usually male, for alleged drunkenness and/or disorderly behaviour, sometimes without cause (The Guardian, 2023). The officers would then drive them to the outskirts of the city at night in the winter, and abandon them, leaving them stranded in sub-zero temperatures (Report of the Commission of Inquiry into Matters Relating to the Death of Neil Stonechild, 2003).</p>" +
 
   "<p>The practice is known as taking Indigenous people for “starlight tours” (The Wayback Machine, 2007) and dates back to at least 1976. As of 2021, despite convictions for related offences, no police officer has been convicted specifically for having caused freezing deaths. June Skeeter’s 2021 research starkly reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
 
-  "<p>June Skeeter’s 2021 research reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>" +
-
-  "<p>Link to chart of police-involved deaths by departments: https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/PoliceViolenceIncidents.html.</p>";
+  "<p>June Skeeter’s 2021 research reveals a harrowing truth: a mere 3% of officers involved in killings faced charges. This egregious lack of accountability demands immediate action. We unequivocally call for accountability and demand that blame be attributed where it is due.</p>";
 
 let divChapter5 =
   "<h3>Looking Closer: Those who take us away</h3>" +
