@@ -326,14 +326,38 @@ map.on("load", function () {
               id: "highway",
               type: 'line',
               source: {
-                          type: "geojson",
-                          data: "data/highway.geojson",
-                        },
+                       type: "geojson",
+                       data: "data/highway.geojson",
+                      },
+               "layout": {
+                       "line-join": "round",
+                       "line-cap": "round"
+                       },
               "paint": {
                 "line-color": "#ffffff",
                 "line-width": 2
               }
-            });
+            },"pviolenceData", "place-labels",
+          );
+  
+  // Add highway labels
+      map.addLayer({
+              id: "highwaynames",
+              type: "symbol",
+              source: {
+                       type: "geojson",
+                       data: "data/highway.geojson",
+                      },
+               "layout": {
+                       "text-field": ['get', 'name'], // Use the name property for labels
+                       "text-font": ['Open Sans Regular'],
+                       "text-size": 10
+                       },
+              "paint": {
+                "text-color": "#ffffff"
+              }
+            },"pviolenceData", "place-labels","highway",
+          );
 
   // Setup the instance, pass callback functions
   scroller
