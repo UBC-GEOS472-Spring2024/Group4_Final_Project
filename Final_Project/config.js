@@ -216,6 +216,11 @@ var config = {
             opacity: 0,
             duration: 300,
         },
+        {
+            layer: "highway",
+            opacity: 0,
+            duration: 300,
+        },
       ],
       onChapterExit: [
         {
@@ -362,12 +367,22 @@ var config = {
           opacity: 0.8,
           duration: 300,
         },
+        {
+            layer: "highway",
+            opacity: 1,
+            duration: 300,
+        },
       ],
       onChapterExit: [
         {
           layer: "pviolenceData",
           opacity: 0,
           duration: 300,
+        },
+        {
+            layer: "highway",
+            opacity: 0,
+            duration: 300,
         },
       ],
     },
