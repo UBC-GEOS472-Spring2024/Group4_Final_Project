@@ -211,6 +211,11 @@ var config = {
           opacity: 0.9,
           duration: 300,
         },
+        {
+            layer: "income",
+            opacity: 0,
+            duration: 300,
+        },
       ],
       onChapterExit: [
         {
