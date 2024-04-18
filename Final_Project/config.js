@@ -145,8 +145,12 @@ let footerDiv =
   "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/</a></p>" +
 
   "<p>Amnesty International Canada. (2021). Missing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
+
+  "<p>APTN News. (2021). It took 15 years of advocacy to get cell coverage on Highway of Tears, and families say there is still much work to do. APTN News. <a href='https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/'>https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/</a></p>" +
   
   "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </a></p>" +
+
+  "<p>Gladue Research Database. (1990). University of Saskatchewan. <a href='https://gladue.usask.ca/node/2860'>https://gladue.usask.ca/node/2860</a></p>" +
 
   "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html</a></p>" +
 
@@ -162,14 +166,28 @@ let footerDiv =
 
   "<p>M, H. (2012). Tachie Reserve in BC [Photo]. <a href='https://www.flickr.com/photos/sultan/9856368246/'>https://www.flickr.com/photos/sultan/9856368246/</a></p>" +
 
+  "<p>Nunavut News. (2020). Iqaluit holds a protest against police brutality and racism. Nunavut News. <a href='https://www.nunavutnews.com/nunavut-news/iqaluit-holds-a-protest-against-police-brutality-and-racism-7279110'>https://www.nunavutnews.com/nunavut-news/iqaluit-holds-a-protest-against-police-brutality-and-racism-7279110</a></p>" +
+
   "<p>Nielsen, K., Zhang, Y., & Ingram, J. (2022). The Impact of COVID-19 on police officer activities. Journal of Criminal Justice, 82, 101943. <a href='https://www.sciencedirect.com/science/article/pii/S0047235222000630?via%3Dihub'>10.1016/j.jcrimjus.2022.101943</a></p>" +
+
+  "<p>Saskatchewan, & Wright, D. H. (2004). Report of the Commission of Inquiry into Matters Relating to the Death of Neil Stonechild. Commission of Inquiry into Matters Relating to the Death of Neil Stonechild. <a href='https://www.deslibris.ca/ID/215901'>https://www.deslibris.ca/ID/215901</a></p>" +
 
   "<p>Seabrook, M. S. S., Luscombe, A., Balian, N., Lofters, A., Matheson, F. I., O’Neill, B. G., Owusu-Bempah, A., Persaud, N., & Pinto, A. D. (2023). Police Funding and Crime Rates in 20 of Canada’s Largest Municipalities: A Longitudinal Study. Canadian Public Policy, 49(4), 383–398. <a href='https://utpjournals.press/doi/10.3138/cpp.2022-050'>10.3138/cpp.2022-050</a></p>" +
 
   "<p>Skeeter, J. (2021, June). Introduction. Systemic Racism & Canadian Police. <a href='https://june-skeeter.github.io/Police_Involved_Deaths_Canada/>https://june-skeeter.github.io/Police_Involved_Deaths_Canada/</a></p>" +
 
+  "<p>Skeeter, J. (2021, June). Next Steps. Systemic Racism & Canadian Police. <a href='https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/NextSteps.html'>https://june-skeeter.github.io/Police_Involved_Deaths_Canada/Content/NextSteps.html</a></p>" +
+
+  "<p>Statistics Canada. (2021). 2021 Census: Data Products. <a href='https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm'>https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm</a></p>" +
+
+  "<p>The Conversation. (2023). How colonial racism fuels Saskatchewan’s criminalization of Indigenous men. The Conversation. <a href='https://theconversation.com/how-colonial-racism-fuels-saskatchewans-criminalization-of-indigenous-men-205260'>https://theconversation.com/how-colonial-racism-fuels-saskatchewans-criminalization-of-indigenous-men-205260</a></p>" +
+
+  "<p>The Guardian. (2023, April 25). Darrell Night, who exposed Canada police freezing deaths scandal, dies at 56. The Guardian. <a href='https://www.theguardian.com/world/2023/apr/25/darrell-night-who-exposed-canada-police-freezing-deaths-scandal-dies-at-56'>https://www.theguardian.com/world/2023/apr/25/darrell-night-who-exposed-canada-police-freezing-deaths-scandal-dies-at-56</a></p>" +
+  
   "<p>Tracking (In)Justice. (2023, February 10). Police-involved Deaths are on the Rise, as are Racial Disparities in Canada. Tracking (In)Justice. <a href='https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/'>https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/</a></p>" +
 
+  "<p>University of Regina. (2008, November 2). Alumni News—FRCD/Aafdis. University of Regina. <a href='https://web.archive.org/web/20081102040422/https://www.uregina.ca/alumni/news-aen-nfrcdaafdis.htm'>https://web.archive.org/web/20081102040422/https://www.uregina.ca/alumni/news-aen-nfrcdaafdis.htm</a></p>" +
+  
   "<p>Wortley, S., Owusu-Bempah, A., Laming, E., & Henry, C. (2021). POLICE USE OF FORCE IN CANADA: A REVIEW OF DATA, EXPERT OPINION, AND THE INTERNATIONAL RESEARCH LITERATURE. Canadian Criminal Justice Association (CCJA). <a href='https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf'>https://www.ccja-acjp.ca/pub/en/wp-content/uploads/sites/8/2021/08/Full-Report-PUF.pdf</a></p>" +
 
   "<h4>Data Sources Used:</h4>" + 
