@@ -78,6 +78,10 @@ let divChapter3 =
   
   "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
 
+  '<img width="600" src="Final_Project/data/income_chart.png">' +
+
+  "<p>Figure 4. Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+  
   "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
 
   "<p>Low-income neighborhoods often experience higher levels of police presence and enforcement activities. This can result in an increased likelihood of interactions between law enforcement and residents, potentially leading to more incidents of violence or abuse, especially if these interactions are characterized by racial bias or prejudice. According to The Conversation (2023), the deaths of Indigenous men involving law enforcement and custody in Saskatchewan “are often ignored or dismissed by broader society based on the presumption that these men endangered themselves due to their lifestyles”.</p>" +
