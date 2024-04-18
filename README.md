@@ -15,4 +15,6 @@ https://ubc-geos472-spring2024.github.io/Group4_Final_Project/Final_Project/data
 https://ubc-geos472-spring2024.github.io/Group4_Final_Project/Final_Project/data/slider_ethnicity.html
 ![Screenshot 2024-03-04 082056](Final_Project/data/disparities_screenshot.png)
 
+Final_Project/data/lowincome_screenshot.png
+
 ![Screenshot 2024-03-04 082056](Final_Project/data/nunavut_screenshot.png)
