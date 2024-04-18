@@ -321,6 +321,19 @@ map.on("load", function () {
         map.getCanvas().style.cursor = '';
     });
 
+    //add highway layer
+    map.addLayer({
+              id: "highway",
+              type: 'line',
+              source: {
+                          type: "geojson",
+                          data: "data/highway.geojson",
+                        },
+              "paint": {
+                "line-color": "#ffffff",
+                "line-width": 2
+              }
+            });
 
   // Setup the instance, pass callback functions
   scroller
