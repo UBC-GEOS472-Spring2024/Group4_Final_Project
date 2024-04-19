@@ -121,15 +121,17 @@ let divChapter6 =
   "<p>Amnesty International’s 2004 report on Canada’s Missing and Murdered Indigenous Women highlighted a troubling reality: despite assurances of protection, Indigenous women have often been deprived of the adequate security promised by law enforcement. This report shed light on a pervasive issue that demands urgent attention and meaningful action to address the longstanding injustices faced by Indigenous communities across the country.</p>";
  
 let divChapter7 =
-  "<h3>Looking Closer: The Power of Resistance.</h3>" +
+  "<h3>Looking Closer: The Power of Resistance</h3>" +
   
   '<video width="325" controls autoplay> <source src="https://www.bpmcdn.com/files/nunavut/import/videos/2020_06_MVI_8008.mp4" type="video/mp4"> </video>' +
   
-  "<p>Here, we focus on a province with the highest percentage of the population with Indigenous identity, Nunavut, and one of their acts of resistance towards police brutality which is protesting.</p>" +
+  "<p>In Nunavut, a territory with one of the highest percentages of Indigenous population in Canada (Statistics Canada, 2021), acts of resistance against police brutality serve as powerful manifestations of community resilience and solidarity.</p>" +
 
-  "<p>On June 5, 2020, hundreds of protesters in Iqaluit gathered to express their frustration with police brutality and racism.</p>" +
+  "<p>On June 5, 2020, in Iqaluit, the capital of Nunavut, hundreds of protesters united in a demonstration against police brutality and systemic racism. This gathering underscored the urgent need to address long-standing grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>" +
 
-  "<p>This gathering underscored the urgent need to address longstanding grievances and injustices faced by Indigenous peoples at the hands of law enforcement.</p>";
+  "<p>In a world full of “ambient violence” (Bekker 2021), protest is not merely altruism, but an outflow of care and compassion towards another. Put differently, protest is an act of love.</p>" +
+
+  "<p>The protest in Iqaluit in 2020 exemplifies the determination of colonially and systematically racialized communities to demand accountability and systemic change in the face of oppression. At the heart of this protest is solidarity with those suffering injustices.</p>";
 
 let footerDiv =
   "<p>Overall, this project has aimed to contribute to the vital discourse on the topic of police violence in Canada, by highlighting temporal and socio-economic patterns in police-involved deaths. Despite the increased investment in police departments, we have observed a dynamic increase in victims over the past several decades; through interactive visualizations, we sought to explore the disproportionate representation of marginalized demographics in this trend. </p>" +
@@ -142,12 +144,14 @@ let footerDiv =
   
   "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/</a></p>" +
 
-    "<p>Amnesty International Canada. (2021). COVID-19 crackdowns: issing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
+  "<p>Amnesty International Canada. (2021). COVID-19 crackdowns: issing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
 
   "<p>APTN News. (2021). It took 15 years of advocacy to get cell coverage on Highway of Tears, and families say there is still much work to do. APTN News. <a href='https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/'>https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/</a></p>" +
   
-  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/ </a></p>" +
+  "<p>Canadian Civil Liberties Association. (2023, February 23). Press Release: Police-involved deaths on the rise across Canada. CCLA. <a href='https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/'>https://ccla.org/press-release/press-release-police-involved-deaths-on-the-rise-across-canada/</a></p>" +
 
+  "<p>Bekker, Martin. (2021). Protest as an act of love. International Journal of Zizek Studies. <a href='https://zizekstudies.org/index.php/IJZS/article/view/1194'>https://zizekstudies.org/index.php/IJZS/article/view/1194</a></p>" +
+  
   "<p>Gladue Research Database. (1990). University of Saskatchewan. <a href='https://gladue.usask.ca/node/2860'>https://gladue.usask.ca/node/2860</a></p>" +
 
   "<p>Government of Canada, D. of J. (2019, September 9). Indigenous overrepresentation in the criminal justice system—JustFacts. <a href='https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html'>https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/may01.html</a></p>" +
