@@ -12,7 +12,7 @@ let introDiv =
     
   '<div style="text-align:center;"><img width="750" src="https://trackinginjustice.ca/wp-content/uploads/Post-1-2-1.jpg" alt="Police Involved Deaths When Force is Used per 100,000 people"><div>' +
     
-  "<p>Figure 1.Police Involved Deaths When Force is Used, per 100,000 People in Canada. From Tracking (in)Justice, 2023.(https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/).</p>" +
+  "<p>Figure 1. Police Involved Deaths When Force is Used, per 100,000 People in Canada. From Tracking (in)Justice, 2023.(https://trackinginjustice.ca/analysis-increase-in-deaths-and-racial-disparities/).</p>" +
     
   "<p>At the same time, Canadian municipalities have continuously invested in policing services, with up to 26% of total expenditures going to police budgets and per capita funding rising in the last decades (Seabrook et al., 2023). Even though general crime rates have decreased across Canada and de-escalation training has become a standard practice (Wortley et al.), this persistent rise in fatal encounters prompts questions about the efficacy and ethics of current police conduct.</p>" +
     
@@ -40,7 +40,7 @@ let divChapter2 =
 
   "<p style='max-width:600px; margin-left:auto; margin-right:auto;'>By looking into this data, we can observe an overall increase in police-involved incidents over the years from 1971 to 2023. In comparing 2011-2022 with previous ten-year periods, there has been a 66.5% increase in deaths from police violence across Canada (CCLA, 2023). We can visualize this change by using the slider on the following map to compare the number of police-involved incidents per year, over the last six decades. Many socio-economic factors may be responsible for this change, including an increase in population, increase in data visibility, and perhaps the rise of certain social movements or circumstances.</p>" +
 
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto'><b>Temporal patterns of police-involved incidents across Canada from between 1971-2023:</b></p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'><b>Temporal Patterns of Police-Involved Incidents Across Canada from 1971-2023:</b></p>" +
 
   '<div style="text-align:center;"><iframe src="data/time_slider.html" style="border:none; height:500px; width:800px;title="Police Violence in Canada by Date"></iframe></div>' +
       
@@ -70,25 +70,25 @@ let divChapter3 =
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>By moving the slider back and forth, we are able to see the distribution of data across the nation, where major cities will have the greatest prevalence for incidents. Interestingly, hotspots of incidents involving Indigenous peoples are focused predominantly West of Ontario, happening to coincide with the RCMP’s main jurisdictions. Furthermore, we can see a distinct rural urban-divide with regards to racialized groups, where locations outside of major cities, especially moving North within the Western provinces, as well as northern Territories, are almost entirely represented by police incidents with Indigenous peoples. </p>";
 
   let divChapter4 =
-  "<h3>Income Disparity and Police Use of Force</h3>" +
+  "<h3>Income Disparities</h3>" +
   
   '<img width="600" src="data/income_legend.png">' +
 
-  "<p>Figure 3. Map legend to show the prevalence of low income in 2020 (LIM-AT) (%) by Census Metropolitan Area. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
-  
-  "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
+  "<p>Figure 3. Map legend showing the prevalence of low income in 2020 (LIM-AT) (%) by Census Metropolitan Area. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm).</p>" +
+
+      "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
 
   '<img width="600" src="data/income_chart.png">' +
 
-  "<p>Figure 4. Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
-  
-  "<p>Here, we look at the relationship between low income populations in Canada, specifically in Saskatchewan, and the prevalence of police force inflicted on Indigenous communities.</p>" +
+  "<p>Figure 4. Chart on prevalence of low income in 2020 (LIM-AT) (%) by province. From Statistics Canada Census Program Data Viewer dashboard, 2021. (https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)</p>" +
+
+      "<p>Among the provinces, Saskatchewan and Manitoba have consistently recorded the highest rate of police reported crime, including rates of violence against women that are nearly double the national average (Statistics Canada, 2013). Indigenous women are also more likely than non-Indigenous women to be murdered and displaced by casual acquaintances, or strangers (RCMP National Overview, 2014).</p>" +
 
   "<p>Low-income neighborhoods often experience higher levels of police presence and enforcement activities. This can result in an increased likelihood of interactions between law enforcement and residents, potentially leading to more incidents of violence or abuse, especially if these interactions are characterized by racial bias or prejudice. According to The Conversation (2023), the deaths of Indigenous men involving law enforcement and custody in Saskatchewan “are often ignored or dismissed by broader society based on the presumption that these men endangered themselves due to their lifestyles”.</p>" +
 
   '<img width="600" src="https://web.archive.org/web/20160423044243im_/http://www.cbc.ca/news2/background/stonechild/gfx/stonechild_protest.jpg">' +
 
-  "<p> Figure 5. In 2000 people marched through the streets of Saskatoon protesting what they were calling racist behaviour in the Saskatoon Police force. From Wayback Machine, 2005. (https://web.archive.org/web/20180811171332/http://www.cbc.ca/news2/background/stonechild/)</p>" +
+  "<p> Figure 5. In 2000 people marched through the streets of Saskatoon protesting what they were calling racist behaviour in the Saskatoon Police force. From Wayback Machine, 2005. (https://web.archive.org/web/20180811171332/http://www.cbc.ca/news2/background/stonechild/).</p>" +
     
   "<p>The Saskatoon freezing deaths involved Indigenous Canadians in and immediately outside Saskatoon, Saskatchewan, in the 1990s and early 2000s, and are suspected of being linked to actions by the members of the Saskatoon Police Service. The police officers would arrest Indigenous people, who were usually male, for alleged drunkenness and/or disorderly behaviour, sometimes without cause (The Guardian, 2023). The officers would then drive them to the outskirts of the city at night in the winter, and abandon them, leaving them stranded in sub-zero temperatures (Report of the Commission of Inquiry into Matters Relating to the Death of Neil Stonechild, 2003).</p>" +
 
@@ -142,7 +142,7 @@ let footerDiv =
   
   "<p>Amnesty International. (2020, December 17). COVID-19 crackdowns: Police abuse and the global pandemic. Amnesty International Ltd. <a href='https://www.amnesty.org/en/documents/act30/3443/2020/en/'>https://www.amnesty.org/en/documents/act30/3443/2020/en/</a></p>" +
 
-  "<p>Amnesty International Canada. (2021). Missing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
+    "<p>Amnesty International Canada. (2021). COVID-19 crackdowns: issing and Murdered Indigenous Women: The Facts. Amnesty International Canada. <a href='https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE'>https://www.amnesty.ca/blog/missing-and-murdered-indigenous-women-facts/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJUG5GM3CZPOzBZjKvo7VRFMGtK4le_Y0aarKn2s9uSjsiu__w7T9exoCoygQAvD_BwE</a></p>" +
 
   "<p>APTN News. (2021). It took 15 years of advocacy to get cell coverage on Highway of Tears, and families say there is still much work to do. APTN News. <a href='https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/'>https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/</a></p>" +
   
