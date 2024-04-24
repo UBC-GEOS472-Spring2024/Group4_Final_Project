@@ -108,7 +108,7 @@ let divChapter5 =
 let divChapter6 =
   "<h3>Looking Closer: Missing and Murdered Indigenous Women</h3>" +
   
-  '<img width="600" src="https://b1867527.smushcdn.com/1867527/wp-content/uploads/2021/05/Highway-of-Tears.jpg?lossy=1&strip=1&webp=1">' +
+  '<img width="600" src="https://www.aptnnews.ca/wp-content/uploads/2021/05/Highway-of-Tears.jpg">' +
 
   "<p>Figure 7. In northern British Columbia, a highway sign warns girls of the dangers of hitchhiking along the Highway of Tears. From Lee Wilson/APTN, 2021. (https://www.aptnnews.ca/national-news/it-took-15-years-of-advocacy-to-get-cell-coverage-on-highway-of-tears-and-families-say-there-is-still-much-work-to-do/)</p>" +
 
